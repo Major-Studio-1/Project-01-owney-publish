@@ -1,0 +1,286 @@
+[
+  {
+    "slug": "san-antonio",
+    "tag": "474",
+    "place": "San Antonio, Texas",
+    "date": "1892-04-04",
+    "label": "4 April 1892",
+    "lon": -98.4936,
+    "lat": 29.4241,
+    "title": "Friends along the mail line",
+    "story": "Railway Mail Service clerks in San Antonio give Owney a token of their welcome. This is one of at least two visits the museum records for the city—a friendship he would return to.",
+    "fact": "The token is dated 4 April 1892. The museum identifies its donors as local Railway Mail Service workers and records visits in 1892 and 1895.",
+    "imagined": "The platform, clerk, gesture, and moment of exchange are imagined. The scene does not reconstruct a particular station.",
+    "kind": "Dated tag · visits recorded",
+    "image": "assets/san-antonio.jpg",
+    "tagImage": "assets/tag-474.jpg",
+    "point": [
+      438.5295,
+      448.4683125
+    ]
+  },
+  {
+    "slug": "atlanta",
+    "tag": "65",
+    "place": "Atlanta, Georgia",
+    "date": "1892-04-08",
+    "label": "8 April 1892",
+    "lon": -84.39,
+    "lat": 33.75,
+    "title": "A shield for a railway dog",
+    "story": "A brass shield marks Owney’s visit to Atlanta. Three initials—RMS—connect the little traveler to the Railway Mail Service.",
+    "fact": "The tag records 8 April 1892. The museum identifies a visit to Atlanta; the donor is unknown.",
+    "imagined": "The railway platform, worker, mailbags, and their arrangement are an imagined setting for this recorded visit.",
+    "kind": "Visit recorded",
+    "image": "assets/atlanta.jpg",
+    "tagImage": "assets/tag-65.jpg",
+    "point": [
+      641.26875,
+      375.46875
+    ]
+  },
+  {
+    "slug": "cincinnati",
+    "tag": "80",
+    "place": "Cincinnati, Ohio",
+    "date": "1892-04-11",
+    "label": "11 April 1892",
+    "lon": -84.512,
+    "lat": 39.103,
+    "title": "A welcome, and a mystery",
+    "story": "Owney receives a token in Cincinnati. The engraver is known, but the “Banner Division 5th” named on its face remains unidentified.",
+    "fact": "The description dates the Cincinnati visit to 11 April 1892 and names engraver James Murdock Jr.",
+    "imagined": "The post office doorway and greeting are illustrative; no specific building or person’s likeness is documented.",
+    "kind": "Visit recorded",
+    "image": "assets/cincinnati.jpg",
+    "tagImage": "assets/tag-80.jpg",
+    "point": [
+      639.515,
+      285.136875
+    ]
+  },
+  {
+    "slug": "washington",
+    "tag": "53",
+    "place": "Washington, D.C.",
+    "date": "1892-04-13",
+    "label": "13 April 1892",
+    "lon": -77.0369,
+    "lat": 38.9072,
+    "title": "Friends in high places",
+    "story": "A token from the office of James E. White, General Superintendent of the Railway Mail Service, carries the date 13 April 1892.",
+    "fact": "The museum connects the token to White’s office. The date is on the token; it does not independently establish an office visit.",
+    "imagined": "Owney inside a postal office is an interpretation of that association. The clerk and room are imagined.",
+    "kind": "Office association",
+    "image": "assets/washington.jpg",
+    "tagImage": "assets/tag-53.jpg",
+    "point": [
+      746.9695624999999,
+      288.441
+    ]
+  },
+  {
+    "slug": "san-francisco",
+    "tag": "337",
+    "place": "San Francisco, California",
+    "date": "1893-05-06",
+    "label": "6 May 1893",
+    "lon": -122.4194,
+    "lat": 37.7749,
+    "title": "A railway dog becomes a celebrity",
+    "story": "At San Francisco’s Pacific Kennel Club dog show, Owney receives an engraved medal. A newspaper even gives the traveling dog a playful interview: his reputation has traveled as far as he has.",
+    "fact": "The museum records an appearance at the 1893 dog show and describes a San Francisco Call interview. The medal’s reverse is dated 6 May 1893.",
+    "imagined": "The show room, other dogs, spectators, and arrangement are invented. No person is a documented portrait.",
+    "kind": "Dog-show appearance · medal date",
+    "image": "assets/san-francisco.jpg",
+    "tagImage": "assets/tag-337.jpg",
+    "point": [
+      94.59612500000006,
+      307.54856249999995
+    ]
+  },
+  {
+    "slug": "fort-wayne",
+    "tag": "107",
+    "relatedTags": [
+      "229"
+    ],
+    "place": "Fort Wayne, Indiana",
+    "date": "1894-03-27",
+    "label": "27 March 1894",
+    "lon": -85.1394,
+    "lat": 41.0793,
+    "title": "A spoon, and a place to stay",
+    "story": "Fort Wayne’s post office gives Owney an unusual keepsake: the decorated bowl of a spoon. Another token from the same day remembers that he stopped with someone named Dick at the Randolf Hotel. Two objects preserve different parts of his welcome.",
+    "fact": "The spoon bowl names the post office and 27 March 1894. A second token, object 0.052985.229, records a stop with Dick at the Randolf Hotel on that date. His surname is unknown.",
+    "imagined": "The postal room, clerk, and handover are imagined. The small illustrated keepsake does not reproduce the actual spoon bowl; inspect the museum photograph for its shape.",
+    "kind": "Two dated objects",
+    "image": "assets/fort-wayne.jpg",
+    "tagImage": "assets/tag-107.jpg",
+    "point": [
+      630.4961250000001,
+      251.78681249999994
+    ]
+  },
+  {
+    "slug": "brooklyn",
+    "tag": "76",
+    "place": "Brooklyn, New York",
+    "date": "1894-04-12",
+    "label": "12 April 1894",
+    "lon": -73.9442,
+    "lat": 40.6782,
+    "title": "A welcome in the newspaper",
+    "story": "Brooklyn already knows its visitor. An April 9 newspaper report celebrates Owney’s arrival and welcome at the main post office. A Station G token dated three days later preserves another connection from the same visit.",
+    "fact": "The token names Station G and is dated 12 April 1894. The museum separately cites an April 9 newspaper report about his arrival and welcome by Postmaster Andrew T. Sullivan at the main Brooklyn post office.",
+    "imagined": "The brick entrance, newspaper reader, and street are imagined. This is not a reconstruction of Station G or the main post office, and the welcome is not assigned to April 12.",
+    "kind": "Tag date · newspaper context",
+    "image": "assets/brooklyn.jpg",
+    "tagImage": "assets/tag-76.jpg",
+    "point": [
+      791.427125,
+      258.555375
+    ]
+  },
+  {
+    "slug": "st-louis",
+    "tag": "19",
+    "place": "St. Louis, Missouri",
+    "date": "1894-05-24",
+    "label": "24 May 1894",
+    "lon": -90.1994,
+    "lat": 38.627,
+    "title": "A coin becomes a keepsake",
+    "story": "Postmaster J. B. Harlow gives Owney a Columbian half dollar. A coin made for the 1893 Chicago World’s Fair becomes a souvenir of a later encounter.",
+    "fact": "The object’s date field says 1894; the description supplies the gift date, 24 May 1894.",
+    "imagined": "The room, gesture, clothing, and lighting are invented. The actual coin is shown separately as museum evidence.",
+    "kind": "Gift date in description",
+    "image": "assets/st-louis.jpg",
+    "tagImage": "assets/tag-19.jpg",
+    "point": [
+      557.758625,
+      293.16937499999995
+    ]
+  },
+  {
+    "slug": "lawrence",
+    "tag": "56",
+    "place": "Lawrence, Massachusetts",
+    "date": "1894-06-13",
+    "label": "13 June 1894",
+    "lon": -71.1631,
+    "lat": 42.707,
+    "title": "Fed well, then north again",
+    "story": "In Lawrence, Owney is fed and sent north on the Manchester, Lawrence & Boston Railway Post Office line. A poem on his token remembers the welcome.",
+    "fact": "The museum describes the visit on 13 June 1894 and transcribes the poem about feeding Owney and sending him north.",
+    "imagined": "The mill-town station, bowl, and railway scene are an illustrated interpretation, not a documented view.",
+    "kind": "Visit recorded",
+    "image": "assets/lawrence.jpg",
+    "tagImage": "assets/tag-56.jpg",
+    "point": [
+      831.4054375,
+      224.31937499999998
+    ]
+  },
+  {
+    "slug": "mankato",
+    "tag": "34",
+    "place": "Mankato, Minnesota",
+    "date": "1895-06-17",
+    "label": "17 June 1895",
+    "lon": -93.9994,
+    "lat": 44.1636,
+    "title": "A medal in Mankato",
+    "story": "J. C. Wise presents Owney with a round brass medal during a visit to Mankato. A small object preserves a remarkably specific moment.",
+    "fact": "The museum identifies the donor, town, and visit date: 17 June 1895.",
+    "imagined": "The rail stop and kneeling worker are plausible illustrations. They do not establish where the exchange took place or what Wise looked like.",
+    "kind": "Visit recorded",
+    "image": "assets/mankato.jpg",
+    "tagImage": "assets/tag-34.jpg",
+    "point": [
+      503.1336250000001,
+      199.73924999999997
+    ]
+  },
+  {
+    "slug": "winnipeg",
+    "tag": "190",
+    "place": "Winnipeg, Manitoba",
+    "date": "1895-06-27",
+    "label": "27 June 1895",
+    "lon": -97.1384,
+    "lat": 49.8951,
+    "title": "Across the border",
+    "story": "Riding a Canadian railway post office car, Owney reaches Winnipeg. An octagonal brass tag records this journey beyond the United States.",
+    "fact": "The museum dates receipt of the tag in Winnipeg to 27 June 1895 and describes the Canadian railway post office trip.",
+    "imagined": "The station, train, and summer light are an interpretation. The image does not reproduce a verified historic platform.",
+    "kind": "Visit recorded",
+    "image": "assets/winnipeg.jpg",
+    "tagImage": "assets/tag-190.jpg",
+    "point": [
+      458.0104999999999,
+      103.0201875
+    ]
+  },
+  {
+    "slug": "tacoma",
+    "tag": "104",
+    "place": "Tacoma / Puyallup, Washington",
+    "date": "1895-08-14",
+    "end": "1895-08-19",
+    "label": "14–19 August 1895",
+    "lon": -122.4443,
+    "lat": 47.2529,
+    "title": "Good luck, Owney",
+    "story": "A good-luck tag is dated 14 August. Five days later, Owney leaves Tacoma on his journey around the world. The token links local well-wishers to a much larger adventure.",
+    "fact": "The tag is dated 14 August 1895; the departure from Tacoma is dated 19 August. The record does not establish exactly where the tag was given.",
+    "imagined": "The waterfront scene imagines preparations for departure. It does not depict an observed event on 14 August.",
+    "kind": "Tag date + departure context",
+    "image": "assets/tacoma.jpg",
+    "tagImage": "assets/tag-104.jpg",
+    "point": [
+      94.23818750000002,
+      147.60731250000006
+    ]
+  },
+  {
+    "slug": "portland-maine",
+    "tag": "144",
+    "place": "Portland, Maine",
+    "date": "1896-04-14",
+    "label": "14 April 1896",
+    "lon": -70.2568,
+    "lat": 43.6591,
+    "title": "At the photographers’ studio",
+    "story": "At Portland’s railway station, the photographers Lane & Collins add their own token to Owney’s collection. It records his visit to the station and studio—a reminder that his admirers worked far beyond the mail car.",
+    "fact": "The museum identifies Lane & Collins as photographers at Portland’s railway station. Their tag records a station and studio visit on 14 April 1896. The record does not say that a photograph was taken.",
+    "imagined": "The camera, studio, light, and Owney’s pose are imagined. This scene does not claim that he sat for a photograph.",
+    "kind": "Studio visit recorded",
+    "image": "assets/portland-maine.jpg",
+    "tagImage": "assets/tag-144.jpg",
+    "point": [
+      844.4335,
+      208.25268749999995
+    ]
+  },
+  {
+    "slug": "scotland",
+    "tag": "196",
+    "place": "Scotland, South Dakota",
+    "date": "1897-03-17",
+    "label": "17 March 1897",
+    "lon": -97.7173,
+    "lat": 43.1497,
+    "title": "One more name on the journey",
+    "story": "A gift from A. E. Parmenter of Dakota Valley Mills adds another connection to Owney’s collection in 1897. The token carries two different dates: its older postal marking and the later date when it was given to the dog.",
+    "fact": "The museum dates the gift to 17 March 1897 and associates the donor with Dakota Valley Mills in Scotland. The separate 1883 marking is not Owney’s visit date. The record does not establish the exact handover location.",
+    "imagined": "The rural railway setting and distant mill evoke the donor’s association. They do not document a visit to that building or an exact place of exchange.",
+    "kind": "Gift date · donor association",
+    "image": "assets/scotland.jpg",
+    "tagImage": "assets/tag-196.jpg",
+    "point": [
+      449.6888125000001,
+      216.84881249999995
+    ]
+  }
+]

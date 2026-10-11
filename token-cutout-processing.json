@@ -1,0 +1,1879 @@
+[
+  {
+    "id": "474",
+    "source": "assets/tag-474.jpg",
+    "output": "tag-474.png",
+    "sourceSize": [
+      440,
+      432
+    ],
+    "canvas": [
+      512,
+      512
+    ],
+    "objectBounds": [
+      26,
+      19,
+      417,
+      414
+    ],
+    "centerOffset": [
+      60,
+      58
+    ],
+    "retainedPixels": 120000,
+    "holePixels": [
+      613,
+      321
+    ],
+    "rgbUnchanged": true
+  },
+  {
+    "id": "65",
+    "source": "assets/tag-65.jpg",
+    "output": "tag-65.png",
+    "sourceSize": [
+      470,
+      480
+    ],
+    "canvas": [
+      512,
+      512
+    ],
+    "objectBounds": [
+      15,
+      23,
+      451,
+      464
+    ],
+    "centerOffset": [
+      37,
+      35
+    ],
+    "retainedPixels": 145243,
+    "holePixels": [
+      12166
+    ],
+    "rgbUnchanged": true
+  },
+  {
+    "id": "80",
+    "source": "assets/tag-80.jpg",
+    "output": "tag-80.png",
+    "sourceSize": [
+      480,
+      471
+    ],
+    "canvas": [
+      512,
+      512
+    ],
+    "objectBounds": [
+      44,
+      44,
+      434,
+      435
+    ],
+    "centerOffset": [
+      60,
+      60
+    ],
+    "retainedPixels": 115030,
+    "holePixels": [
+      4720
+    ],
+    "rgbUnchanged": true
+  },
+  {
+    "id": "53",
+    "source": "assets/tag-53.jpg",
+    "output": "tag-53.png",
+    "sourceSize": [
+      419,
+      480
+    ],
+    "canvas": [
+      512,
+      512
+    ],
+    "objectBounds": [
+      15,
+      12,
+      402,
+      460
+    ],
+    "centerOffset": [
+      62,
+      31
+    ],
+    "retainedPixels": 127667,
+    "holePixels": [
+      546
+    ],
+    "rgbUnchanged": true
+  },
+  {
+    "id": "337",
+    "source": "assets/tag-337.jpg",
+    "output": "tag-337.png",
+    "sourceSize": [
+      440,
+      433
+    ],
+    "canvas": [
+      512,
+      512
+    ],
+    "objectBounds": [
+      27,
+      26,
+      414,
+      411
+    ],
+    "centerOffset": [
+      62,
+      63
+    ],
+    "retainedPixels": 116220,
+    "holePixels": [
+      1259
+    ],
+    "rgbUnchanged": true
+  },
+  {
+    "id": "107",
+    "source": "assets/tag-107.jpg",
+    "output": "tag-107.png",
+    "sourceSize": [
+      440,
+      221
+    ],
+    "canvas": [
+      512,
+      512
+    ],
+    "objectBounds": [
+      16,
+      12,
+      428,
+      208
+    ],
+    "centerOffset": [
+      49,
+      157
+    ],
+    "retainedPixels": 54480,
+    "holePixels": [
+      180
+    ],
+    "rgbUnchanged": true
+  },
+  {
+    "id": "76",
+    "source": "assets/tag-76.jpg",
+    "output": "tag-76.png",
+    "sourceSize": [
+      440,
+      185
+    ],
+    "canvas": [
+      512,
+      512
+    ],
+    "objectBounds": [
+      12,
+      19,
+      418,
+      159
+    ],
+    "centerOffset": [
+      52,
+      185
+    ],
+    "retainedPixels": 50884,
+    "holePixels": [
+      3407
+    ],
+    "rgbUnchanged": true
+  },
+  {
+    "id": "19",
+    "source": "assets/tag-19.jpg",
+    "output": "tag-19.png",
+    "sourceSize": [
+      429,
+      480
+    ],
+    "canvas": [
+      512,
+      512
+    ],
+    "objectBounds": [
+      25,
+      20,
+      400,
+      455
+    ],
+    "centerOffset": [
+      68,
+      38
+    ],
+    "retainedPixels": 113727,
+    "holePixels": [
+      898
+    ],
+    "rgbUnchanged": true
+  },
+  {
+    "id": "56",
+    "source": "assets/tag-56.jpg",
+    "output": "tag-56.png",
+    "sourceSize": [
+      480,
+      357
+    ],
+    "canvas": [
+      512,
+      512
+    ],
+    "objectBounds": [
+      26,
+      16,
+      455,
+      338
+    ],
+    "centerOffset": [
+      41,
+      94
+    ],
+    "retainedPixels": 133603,
+    "holePixels": [],
+    "rgbUnchanged": true
+  },
+  {
+    "id": "34",
+    "source": "assets/tag-34.jpg",
+    "output": "tag-34.png",
+    "sourceSize": [
+      480,
+      474
+    ],
+    "canvas": [
+      512,
+      512
+    ],
+    "objectBounds": [
+      24,
+      18,
+      458,
+      454
+    ],
+    "centerOffset": [
+      38,
+      37
+    ],
+    "retainedPixels": 144857,
+    "holePixels": [
+      3195
+    ],
+    "rgbUnchanged": true
+  },
+  {
+    "id": "190",
+    "source": "assets/tag-190.jpg",
+    "output": "tag-190.png",
+    "sourceSize": [
+      480,
+      476
+    ],
+    "canvas": [
+      512,
+      512
+    ],
+    "objectBounds": [
+      30,
+      27,
+      449,
+      452
+    ],
+    "centerOffset": [
+      46,
+      43
+    ],
+    "retainedPixels": 135369,
+    "holePixels": [
+      10018
+    ],
+    "rgbUnchanged": true
+  },
+  {
+    "id": "104",
+    "source": "assets/tag-104.jpg",
+    "output": "tag-104.png",
+    "sourceSize": [
+      409,
+      480
+    ],
+    "canvas": [
+      512,
+      512
+    ],
+    "objectBounds": [
+      34,
+      33,
+      372,
+      444
+    ],
+    "centerOffset": [
+      86,
+      50
+    ],
+    "retainedPixels": 93479,
+    "holePixels": [
+      2218
+    ],
+    "rgbUnchanged": true
+  },
+  {
+    "id": "144",
+    "source": "assets/tag-144.jpg",
+    "output": "tag-144.png",
+    "sourceSize": [
+      440,
+      270
+    ],
+    "canvas": [
+      512,
+      512
+    ],
+    "objectBounds": [
+      44,
+      36,
+      396,
+      237
+    ],
+    "centerOffset": [
+      79,
+      155
+    ],
+    "retainedPixels": 55502,
+    "holePixels": [
+      761
+    ],
+    "rgbUnchanged": true
+  },
+  {
+    "id": "196",
+    "source": "assets/tag-196.jpg",
+    "output": "tag-196.png",
+    "sourceSize": [
+      440,
+      265
+    ],
+    "canvas": [
+      512,
+      512
+    ],
+    "objectBounds": [
+      29,
+      28,
+      414,
+      240
+    ],
+    "centerOffset": [
+      63,
+      149
+    ],
+    "retainedPixels": 63446,
+    "holePixels": [
+      1678
+    ],
+    "rgbUnchanged": true
+  },
+  {
+    "id": "60",
+    "source": "assets/tag-60.jpg",
+    "output": "tag-60.png",
+    "sourceSize": [
+      480,
+      465
+    ],
+    "canvas": [
+      512,
+      512
+    ],
+    "objectBounds": [
+      32,
+      23,
+      455,
+      439
+    ],
+    "centerOffset": [
+      44,
+      47
+    ],
+    "retainedPixels": 159463,
+    "holePixels": [
+      11427
+    ],
+    "rgbUnchanged": true
+  },
+  {
+    "id": "84",
+    "source": "assets/tag-84.jpg",
+    "output": "tag-84.png",
+    "sourceSize": [
+      440,
+      430
+    ],
+    "canvas": [
+      512,
+      512
+    ],
+    "objectBounds": [
+      28,
+      20,
+      413,
+      406
+    ],
+    "centerOffset": [
+      63,
+      62
+    ],
+    "retainedPixels": 103990,
+    "holePixels": [
+      12851
+    ],
+    "rgbUnchanged": true
+  },
+  {
+    "id": "92",
+    "source": "assets/tag-92.jpg",
+    "output": "tag-92.png",
+    "sourceSize": [
+      411,
+      440
+    ],
+    "canvas": [
+      512,
+      512
+    ],
+    "objectBounds": [
+      25,
+      20,
+      387,
+      417
+    ],
+    "centerOffset": [
+      74,
+      57
+    ],
+    "retainedPixels": 106502,
+    "holePixels": [
+      307
+    ],
+    "rgbUnchanged": true
+  },
+  {
+    "id": "93",
+    "source": "assets/tag-93.jpg",
+    "output": "tag-93.png",
+    "sourceSize": [
+      440,
+      438
+    ],
+    "canvas": [
+      512,
+      512
+    ],
+    "objectBounds": [
+      24,
+      22,
+      413,
+      413
+    ],
+    "centerOffset": [
+      61,
+      60
+    ],
+    "retainedPixels": 119190,
+    "holePixels": [
+      434
+    ],
+    "rgbUnchanged": true
+  },
+  {
+    "id": "96.7",
+    "source": "assets/tag-96.7.jpg",
+    "output": "tag-96.7.png",
+    "sourceSize": [
+      439,
+      263
+    ],
+    "canvas": [
+      512,
+      512
+    ],
+    "objectBounds": [
+      23,
+      22,
+      417,
+      239
+    ],
+    "centerOffset": [
+      58,
+      147
+    ],
+    "retainedPixels": 79456,
+    "holePixels": [],
+    "rgbUnchanged": true
+  },
+  {
+    "id": "96.11",
+    "source": "assets/tag-96.11.jpg",
+    "output": "tag-96.11.png",
+    "sourceSize": [
+      440,
+      301
+    ],
+    "canvas": [
+      512,
+      512
+    ],
+    "objectBounds": [
+      24,
+      19,
+      416,
+      280
+    ],
+    "centerOffset": [
+      59,
+      125
+    ],
+    "retainedPixels": 89917,
+    "holePixels": [
+      834
+    ],
+    "rgbUnchanged": true
+  },
+  {
+    "id": "99",
+    "source": "assets/tag-99.jpg",
+    "output": "tag-99.png",
+    "sourceSize": [
+      310,
+      440
+    ],
+    "canvas": [
+      512,
+      512
+    ],
+    "objectBounds": [
+      17,
+      15,
+      291,
+      420
+    ],
+    "centerOffset": [
+      118,
+      53
+    ],
+    "retainedPixels": 80913,
+    "holePixels": [
+      400
+    ],
+    "rgbUnchanged": true
+  },
+  {
+    "id": "103",
+    "source": "assets/tag-103.jpg",
+    "output": "tag-103.png",
+    "sourceSize": [
+      440,
+      371
+    ],
+    "canvas": [
+      512,
+      512
+    ],
+    "objectBounds": [
+      46,
+      38,
+      399,
+      335
+    ],
+    "centerOffset": [
+      79,
+      107
+    ],
+    "retainedPixels": 79606,
+    "holePixels": [
+      4198
+    ],
+    "rgbUnchanged": true
+  },
+  {
+    "id": "106",
+    "source": "assets/tag-106.jpg",
+    "output": "tag-106.png",
+    "sourceSize": [
+      390,
+      440
+    ],
+    "canvas": [
+      512,
+      512
+    ],
+    "objectBounds": [
+      27,
+      23,
+      358,
+      414
+    ],
+    "centerOffset": [
+      90,
+      60
+    ],
+    "retainedPixels": 95591,
+    "holePixels": [
+      384
+    ],
+    "rgbUnchanged": true
+  },
+  {
+    "id": "109",
+    "source": "assets/tag-109.jpg",
+    "output": "tag-109.png",
+    "sourceSize": [
+      439,
+      145
+    ],
+    "canvas": [
+      512,
+      512
+    ],
+    "objectBounds": [
+      16,
+      19,
+      424,
+      124
+    ],
+    "centerOffset": [
+      51,
+      203
+    ],
+    "retainedPixels": 40978,
+    "holePixels": [
+      657
+    ],
+    "rgbUnchanged": true
+  },
+  {
+    "id": "110",
+    "source": "assets/tag-110.jpg",
+    "output": "tag-110.png",
+    "sourceSize": [
+      385,
+      440
+    ],
+    "canvas": [
+      512,
+      512
+    ],
+    "objectBounds": [
+      46,
+      36,
+      342,
+      395
+    ],
+    "centerOffset": [
+      107,
+      76
+    ],
+    "retainedPixels": 53210,
+    "holePixels": [
+      390
+    ],
+    "rgbUnchanged": true
+  },
+  {
+    "id": "116",
+    "source": "assets/tag-116.jpg",
+    "output": "tag-116.png",
+    "sourceSize": [
+      440,
+      432
+    ],
+    "canvas": [
+      512,
+      512
+    ],
+    "objectBounds": [
+      40,
+      34,
+      401,
+      399
+    ],
+    "centerOffset": [
+      75,
+      73
+    ],
+    "retainedPixels": 83236,
+    "holePixels": [
+      566,
+      4130,
+      4212,
+      4057,
+      3952,
+      4191
+    ],
+    "rgbUnchanged": true
+  },
+  {
+    "id": "117",
+    "source": "assets/tag-117.jpg",
+    "output": "tag-117.png",
+    "sourceSize": [
+      440,
+      437
+    ],
+    "canvas": [
+      512,
+      512
+    ],
+    "objectBounds": [
+      18,
+      15,
+      424,
+      422
+    ],
+    "centerOffset": [
+      52,
+      52
+    ],
+    "retainedPixels": 122946,
+    "holePixels": [
+      1343
+    ],
+    "rgbUnchanged": true
+  },
+  {
+    "id": "120",
+    "source": "assets/tag-120.jpg",
+    "output": "tag-120.png",
+    "sourceSize": [
+      440,
+      434
+    ],
+    "canvas": [
+      512,
+      512
+    ],
+    "objectBounds": [
+      44,
+      36,
+      397,
+      392
+    ],
+    "centerOffset": [
+      79,
+      77
+    ],
+    "retainedPixels": 96764,
+    "holePixels": [
+      1695
+    ],
+    "rgbUnchanged": true
+  },
+  {
+    "id": "121",
+    "source": "assets/tag-121.jpg",
+    "output": "tag-121.png",
+    "sourceSize": [
+      359,
+      440
+    ],
+    "canvas": [
+      512,
+      512
+    ],
+    "objectBounds": [
+      18,
+      16,
+      338,
+      428
+    ],
+    "centerOffset": [
+      95,
+      49
+    ],
+    "retainedPixels": 91678,
+    "holePixels": [
+      638
+    ],
+    "rgbUnchanged": true
+  },
+  {
+    "id": "122",
+    "source": "assets/tag-122.jpg",
+    "output": "tag-122.png",
+    "sourceSize": [
+      423,
+      440
+    ],
+    "canvas": [
+      512,
+      512
+    ],
+    "objectBounds": [
+      25,
+      22,
+      402,
+      414
+    ],
+    "centerOffset": [
+      67,
+      59
+    ],
+    "retainedPixels": 92270,
+    "holePixels": [
+      977
+    ],
+    "rgbUnchanged": true
+  },
+  {
+    "id": "124",
+    "source": "assets/tag-124.jpg",
+    "output": "tag-124.png",
+    "sourceSize": [
+      440,
+      437
+    ],
+    "canvas": [
+      512,
+      512
+    ],
+    "objectBounds": [
+      18,
+      13,
+      423,
+      424
+    ],
+    "centerOffset": [
+      53,
+      50
+    ],
+    "retainedPixels": 105045,
+    "holePixels": [
+      1343
+    ],
+    "rgbUnchanged": true
+  },
+  {
+    "id": "145",
+    "source": "assets/tag-145.jpg",
+    "output": "tag-145.png",
+    "sourceSize": [
+      440,
+      425
+    ],
+    "canvas": [
+      512,
+      512
+    ],
+    "objectBounds": [
+      31,
+      23,
+      414,
+      403
+    ],
+    "centerOffset": [
+      64,
+      65
+    ],
+    "retainedPixels": 112547,
+    "holePixels": [
+      1913
+    ],
+    "rgbUnchanged": true
+  },
+  {
+    "id": "148",
+    "source": "assets/tag-148.jpg",
+    "output": "tag-148.png",
+    "sourceSize": [
+      440,
+      440
+    ],
+    "canvas": [
+      512,
+      512
+    ],
+    "objectBounds": [
+      42,
+      37,
+      402,
+      401
+    ],
+    "centerOffset": [
+      75,
+      73
+    ],
+    "retainedPixels": 93425,
+    "holePixels": [
+      771
+    ],
+    "rgbUnchanged": true
+  },
+  {
+    "id": "150",
+    "source": "assets/tag-150.jpg",
+    "output": "tag-150.png",
+    "sourceSize": [
+      371,
+      440
+    ],
+    "canvas": [
+      512,
+      512
+    ],
+    "objectBounds": [
+      38,
+      35,
+      335,
+      401
+    ],
+    "centerOffset": [
+      107,
+      72
+    ],
+    "retainedPixels": 79105,
+    "holePixels": [
+      270
+    ],
+    "rgbUnchanged": true,
+    "maskMethod": "Blue textile background excluded by color; retained RGB unchanged."
+  },
+  {
+    "id": "151",
+    "source": "assets/tag-151.jpg",
+    "output": "tag-151.png",
+    "sourceSize": [
+      440,
+      435
+    ],
+    "canvas": [
+      512,
+      512
+    ],
+    "objectBounds": [
+      22,
+      16,
+      419,
+      417
+    ],
+    "centerOffset": [
+      57,
+      55
+    ],
+    "retainedPixels": 123804,
+    "holePixels": [
+      1810
+    ],
+    "rgbUnchanged": true
+  },
+  {
+    "id": "153",
+    "source": "assets/tag-153.jpg",
+    "output": "tag-153.png",
+    "sourceSize": [
+      440,
+      432
+    ],
+    "canvas": [
+      512,
+      512
+    ],
+    "objectBounds": [
+      24,
+      22,
+      414,
+      411
+    ],
+    "centerOffset": [
+      60,
+      61
+    ],
+    "retainedPixels": 119632,
+    "holePixels": [
+      999
+    ],
+    "rgbUnchanged": true
+  },
+  {
+    "id": "164",
+    "source": "assets/tag-164.jpg",
+    "output": "tag-164.png",
+    "sourceSize": [
+      437,
+      440
+    ],
+    "canvas": [
+      512,
+      512
+    ],
+    "objectBounds": [
+      22,
+      20,
+      414,
+      423
+    ],
+    "centerOffset": [
+      59,
+      54
+    ],
+    "retainedPixels": 119373,
+    "holePixels": [
+      9328
+    ],
+    "rgbUnchanged": true
+  },
+  {
+    "id": "183",
+    "source": "assets/tag-183.jpg",
+    "output": "tag-183.png",
+    "sourceSize": [
+      440,
+      432
+    ],
+    "canvas": [
+      512,
+      512
+    ],
+    "objectBounds": [
+      29,
+      25,
+      411,
+      404
+    ],
+    "centerOffset": [
+      64,
+      66
+    ],
+    "retainedPixels": 112700,
+    "holePixels": [
+      1445
+    ],
+    "rgbUnchanged": true
+  },
+  {
+    "id": "199",
+    "source": "assets/tag-199.jpg",
+    "output": "tag-199.png",
+    "sourceSize": [
+      440,
+      427
+    ],
+    "canvas": [
+      512,
+      512
+    ],
+    "objectBounds": [
+      29,
+      24,
+      413,
+      407
+    ],
+    "centerOffset": [
+      63,
+      64
+    ],
+    "retainedPixels": 114400,
+    "holePixels": [
+      1026
+    ],
+    "rgbUnchanged": true
+  },
+  {
+    "id": "202",
+    "source": "assets/tag-202.jpg",
+    "output": "tag-202.png",
+    "sourceSize": [
+      440,
+      179
+    ],
+    "canvas": [
+      512,
+      512
+    ],
+    "objectBounds": [
+      18,
+      19,
+      423,
+      155
+    ],
+    "centerOffset": [
+      53,
+      187
+    ],
+    "retainedPixels": 50124,
+    "holePixels": [
+      381
+    ],
+    "rgbUnchanged": true
+  },
+  {
+    "id": "203",
+    "source": "assets/tag-203.jpg",
+    "output": "tag-203.png",
+    "sourceSize": [
+      440,
+      413
+    ],
+    "canvas": [
+      512,
+      512
+    ],
+    "objectBounds": [
+      26,
+      20,
+      418,
+      393
+    ],
+    "centerOffset": [
+      59,
+      69
+    ],
+    "retainedPixels": 98401,
+    "holePixels": [
+      4071
+    ],
+    "rgbUnchanged": true
+  },
+  {
+    "id": "205",
+    "source": "assets/tag-205.jpg",
+    "output": "tag-205.png",
+    "sourceSize": [
+      331,
+      440
+    ],
+    "canvas": [
+      512,
+      512
+    ],
+    "objectBounds": [
+      31,
+      19,
+      301,
+      411
+    ],
+    "centerOffset": [
+      120,
+      59
+    ],
+    "retainedPixels": 74277,
+    "holePixels": [
+      1082
+    ],
+    "rgbUnchanged": true
+  },
+  {
+    "id": "207",
+    "source": "assets/tag-207.jpg",
+    "output": "tag-207.png",
+    "sourceSize": [
+      391,
+      440
+    ],
+    "canvas": [
+      512,
+      512
+    ],
+    "objectBounds": [
+      26,
+      23,
+      367,
+      414
+    ],
+    "centerOffset": [
+      85,
+      60
+    ],
+    "retainedPixels": 129689,
+    "holePixels": [
+      835
+    ],
+    "rgbUnchanged": true
+  },
+  {
+    "id": "210",
+    "source": "assets/tag-210.jpg",
+    "output": "tag-210.png",
+    "sourceSize": [
+      440,
+      480
+    ],
+    "canvas": [
+      512,
+      512
+    ],
+    "objectBounds": [
+      39,
+      35,
+      408,
+      441
+    ],
+    "centerOffset": [
+      71,
+      52
+    ],
+    "retainedPixels": 109592,
+    "holePixels": [
+      3744
+    ],
+    "rgbUnchanged": true
+  },
+  {
+    "id": "211",
+    "source": "assets/tag-211.jpg",
+    "output": "tag-211.png",
+    "sourceSize": [
+      440,
+      440
+    ],
+    "canvas": [
+      512,
+      512
+    ],
+    "objectBounds": [
+      42,
+      39,
+      401,
+      402
+    ],
+    "centerOffset": [
+      76,
+      74
+    ],
+    "retainedPixels": 102324,
+    "holePixels": [
+      1252
+    ],
+    "rgbUnchanged": true
+  },
+  {
+    "id": "216",
+    "source": "assets/tag-216.jpg",
+    "output": "tag-216.png",
+    "sourceSize": [
+      366,
+      439
+    ],
+    "canvas": [
+      512,
+      512
+    ],
+    "objectBounds": [
+      38,
+      28,
+      335,
+      409
+    ],
+    "centerOffset": [
+      107,
+      65
+    ],
+    "retainedPixels": 70402,
+    "holePixels": [
+      546,
+      463
+    ],
+    "rgbUnchanged": true
+  },
+  {
+    "id": "219",
+    "source": "assets/tag-219.jpg",
+    "output": "tag-219.png",
+    "sourceSize": [
+      358,
+      439
+    ],
+    "canvas": [
+      512,
+      512
+    ],
+    "objectBounds": [
+      40,
+      54,
+      326,
+      402
+    ],
+    "centerOffset": [
+      112,
+      81
+    ],
+    "retainedPixels": 59841,
+    "holePixels": [],
+    "rgbUnchanged": true
+  },
+  {
+    "id": "229",
+    "source": "assets/tag-229.jpg",
+    "output": "tag-229.png",
+    "sourceSize": [
+      440,
+      435
+    ],
+    "canvas": [
+      512,
+      512
+    ],
+    "objectBounds": [
+      26,
+      16,
+      418,
+      413
+    ],
+    "centerOffset": [
+      59,
+      57
+    ],
+    "retainedPixels": 120578,
+    "holePixels": [
+      934
+    ],
+    "rgbUnchanged": true
+  },
+  {
+    "id": "230",
+    "source": "assets/tag-230.jpg",
+    "output": "tag-230.png",
+    "sourceSize": [
+      440,
+      131
+    ],
+    "canvas": [
+      512,
+      512
+    ],
+    "objectBounds": [
+      20,
+      17,
+      427,
+      111
+    ],
+    "centerOffset": [
+      52,
+      208
+    ],
+    "retainedPixels": 35665,
+    "holePixels": [
+      482
+    ],
+    "rgbUnchanged": true
+  },
+  {
+    "id": "239",
+    "source": "assets/tag-239.jpg",
+    "output": "tag-239.png",
+    "sourceSize": [
+      440,
+      318
+    ],
+    "canvas": [
+      512,
+      512
+    ],
+    "objectBounds": [
+      20,
+      20,
+      418,
+      296
+    ],
+    "centerOffset": [
+      56,
+      117
+    ],
+    "retainedPixels": 83632,
+    "holePixels": [
+      2110
+    ],
+    "rgbUnchanged": true
+  },
+  {
+    "id": "243",
+    "source": "assets/tag-243.jpg",
+    "output": "tag-243.png",
+    "sourceSize": [
+      440,
+      254
+    ],
+    "canvas": [
+      512,
+      512
+    ],
+    "objectBounds": [
+      16,
+      13,
+      424,
+      241
+    ],
+    "centerOffset": [
+      51,
+      141
+    ],
+    "retainedPixels": 90331,
+    "holePixels": [
+      491
+    ],
+    "rgbUnchanged": true
+  },
+  {
+    "id": "368",
+    "source": "assets/tag-368.jpg",
+    "output": "tag-368.png",
+    "sourceSize": [
+      440,
+      338
+    ],
+    "canvas": [
+      512,
+      512
+    ],
+    "objectBounds": [
+      68,
+      64,
+      371,
+      277
+    ],
+    "centerOffset": [
+      104,
+      149
+    ],
+    "retainedPixels": 63052,
+    "holePixels": [
+      1066
+    ],
+    "rgbUnchanged": true
+  },
+  {
+    "id": "369",
+    "source": "assets/tag-369.jpg",
+    "output": "tag-369.png",
+    "sourceSize": [
+      440,
+      416
+    ],
+    "canvas": [
+      512,
+      512
+    ],
+    "objectBounds": [
+      86,
+      70,
+      368,
+      353
+    ],
+    "centerOffset": [
+      114,
+      114
+    ],
+    "retainedPixels": 60644,
+    "holePixels": [
+      2315
+    ],
+    "rgbUnchanged": true
+  },
+  {
+    "id": "374",
+    "source": "assets/tag-374.jpg",
+    "output": "tag-374.png",
+    "sourceSize": [
+      440,
+      221
+    ],
+    "canvas": [
+      512,
+      512
+    ],
+    "objectBounds": [
+      41,
+      56,
+      393,
+      166
+    ],
+    "centerOffset": [
+      79,
+      200
+    ],
+    "retainedPixels": 35871,
+    "holePixels": [
+      317
+    ],
+    "rgbUnchanged": true
+  },
+  {
+    "id": "376",
+    "source": "assets/tag-376.jpg",
+    "output": "tag-376.png",
+    "sourceSize": [
+      439,
+      306
+    ],
+    "canvas": [
+      512,
+      512
+    ],
+    "objectBounds": [
+      57,
+      74,
+      378,
+      238
+    ],
+    "centerOffset": [
+      95,
+      173
+    ],
+    "retainedPixels": 41674,
+    "holePixels": [
+      318
+    ],
+    "rgbUnchanged": true
+  },
+  {
+    "id": "406",
+    "source": "assets/tag-406.jpg",
+    "output": "tag-406.png",
+    "sourceSize": [
+      440,
+      266
+    ],
+    "canvas": [
+      512,
+      512
+    ],
+    "objectBounds": [
+      24,
+      21,
+      419,
+      245
+    ],
+    "centerOffset": [
+      58,
+      143
+    ],
+    "retainedPixels": 69490,
+    "holePixels": [
+      988
+    ],
+    "rgbUnchanged": true
+  },
+  {
+    "id": "425",
+    "source": "assets/tag-425.jpg",
+    "output": "tag-425.png",
+    "sourceSize": [
+      404,
+      440
+    ],
+    "canvas": [
+      512,
+      512
+    ],
+    "objectBounds": [
+      24,
+      21,
+      382,
+      419
+    ],
+    "centerOffset": [
+      76,
+      56
+    ],
+    "retainedPixels": 112868,
+    "holePixels": [
+      6760
+    ],
+    "rgbUnchanged": true
+  },
+  {
+    "id": "451",
+    "source": "assets/tag-451.jpg",
+    "output": "tag-451.png",
+    "sourceSize": [
+      440,
+      132
+    ],
+    "canvas": [
+      512,
+      512
+    ],
+    "objectBounds": [
+      10,
+      10,
+      428,
+      118
+    ],
+    "centerOffset": [
+      46,
+      201
+    ],
+    "retainedPixels": 43524,
+    "holePixels": [
+      321
+    ],
+    "rgbUnchanged": true
+  },
+  {
+    "id": "453",
+    "source": "assets/tag-453.jpg",
+    "output": "tag-453.png",
+    "sourceSize": [
+      401,
+      440
+    ],
+    "canvas": [
+      512,
+      512
+    ],
+    "objectBounds": [
+      18,
+      19,
+      380,
+      419
+    ],
+    "centerOffset": [
+      74,
+      55
+    ],
+    "retainedPixels": 115483,
+    "holePixels": [
+      6484
+    ],
+    "rgbUnchanged": true
+  },
+  {
+    "id": "455",
+    "source": "assets/tag-455.jpg",
+    "output": "tag-455.png",
+    "sourceSize": [
+      439,
+      219
+    ],
+    "canvas": [
+      512,
+      512
+    ],
+    "objectBounds": [
+      14,
+      11,
+      426,
+      203
+    ],
+    "centerOffset": [
+      49,
+      159
+    ],
+    "retainedPixels": 75640,
+    "holePixels": [
+      1055
+    ],
+    "rgbUnchanged": true
+  },
+  {
+    "id": "457",
+    "source": "assets/tag-457.jpg",
+    "output": "tag-457.png",
+    "sourceSize": [
+      440,
+      434
+    ],
+    "canvas": [
+      512,
+      512
+    ],
+    "objectBounds": [
+      23,
+      19,
+      419,
+      417
+    ],
+    "centerOffset": [
+      57,
+      56
+    ],
+    "retainedPixels": 123162,
+    "holePixels": [
+      558
+    ],
+    "rgbUnchanged": true
+  },
+  {
+    "id": "463",
+    "source": "assets/tag-463.jpg",
+    "output": "tag-463.png",
+    "sourceSize": [
+      440,
+      432
+    ],
+    "canvas": [
+      512,
+      512
+    ],
+    "objectBounds": [
+      21,
+      18,
+      419,
+      415
+    ],
+    "centerOffset": [
+      56,
+      57
+    ],
+    "retainedPixels": 124124,
+    "holePixels": [
+      627
+    ],
+    "rgbUnchanged": true
+  },
+  {
+    "id": "475",
+    "source": "assets/tag-475.jpg",
+    "output": "tag-475.png",
+    "sourceSize": [
+      440,
+      438
+    ],
+    "canvas": [
+      512,
+      512
+    ],
+    "objectBounds": [
+      22,
+      17,
+      417,
+      416
+    ],
+    "centerOffset": [
+      58,
+      56
+    ],
+    "retainedPixels": 110631,
+    "holePixels": [
+      13017
+    ],
+    "rgbUnchanged": true
+  },
+  {
+    "id": "481",
+    "source": "assets/tag-481.jpg",
+    "output": "tag-481.png",
+    "sourceSize": [
+      265,
+      440
+    ],
+    "canvas": [
+      512,
+      512
+    ],
+    "objectBounds": [
+      18,
+      15,
+      247,
+      421
+    ],
+    "centerOffset": [
+      141,
+      52
+    ],
+    "retainedPixels": 78575,
+    "holePixels": [
+      1486
+    ],
+    "rgbUnchanged": true
+  },
+  {
+    "id": "482",
+    "source": "assets/tag-482.jpg",
+    "output": "tag-482.png",
+    "sourceSize": [
+      317,
+      440
+    ],
+    "canvas": [
+      512,
+      512
+    ],
+    "objectBounds": [
+      18,
+      14,
+      300,
+      423
+    ],
+    "centerOffset": [
+      114,
+      51
+    ],
+    "retainedPixels": 91915,
+    "holePixels": [
+      484
+    ],
+    "rgbUnchanged": true
+  },
+  {
+    "id": "488",
+    "source": "assets/tag-488.jpg",
+    "output": "tag-488.png",
+    "sourceSize": [
+      440,
+      309
+    ],
+    "canvas": [
+      512,
+      512
+    ],
+    "objectBounds": [
+      27,
+      43,
+      414,
+      277
+    ],
+    "centerOffset": [
+      62,
+      138
+    ],
+    "retainedPixels": 90195,
+    "holePixels": [],
+    "rgbUnchanged": true,
+    "maskMethod": "Front plate detail cropped at source pixels x27–414, y43–277; mounting strap omitted; retained RGB unchanged."
+  },
+  {
+    "id": "91",
+    "source": "assets/tag-91.jpg",
+    "output": "tag-91.png",
+    "sourceSize": [
+      411,
+      440
+    ],
+    "canvas": [
+      512,
+      512
+    ],
+    "objectBounds": [
+      23,
+      27,
+      383,
+      416
+    ],
+    "centerOffset": [
+      75,
+      61
+    ],
+    "retainedPixels": 110784,
+    "holePixels": [
+      1170
+    ],
+    "rgbUnchanged": true
+  }
+]

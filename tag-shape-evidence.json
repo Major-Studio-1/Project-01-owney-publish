@@ -1,0 +1,1890 @@
+{
+  "policy": "Manual visual classification of all67 dated tags from final-review-1.png, final-review-2.png, final-review-3.png and cutout-review.png; borderline outlines were checked in the full-size transparent cutouts. Categories describe the photographed main-body silhouette, not subject matter, theme icons or engraved designs. Ignore internal holes and small hanging rings, lugs or handle attachments. Circle retains small uniform rim serrations; oval means a visibly elongated continuously curved body; rectangle permits rounded corners and modest shoulder/end variation while retaining long straight opposite edges; shield means a badge-like body with shoulders and a tapering lower tip; triangle permits small clipped base corners; polygon covers distinctly angular multi-sided/tapered bodies; irregular retains substantial gear/sunburst/horseshoe or ornate external lobes. No mixed-object grouping or insufficiently legible silhouette was found in these67 reviewed cutouts, so none required unclassified. These are editorial visual observations, not Smithsonian catalog shape fields. Source links identify the original museum objects. The remaining310 collection silhouettes were manually reviewed from collection-shape-review/shapes-1.png through shapes-6.png on5 October2026 using the same main-body definitions. All377 objects now have documented visual observations; collar-mounted object details use the visible main tag outline. Shapes describe appearance, not museum catalog metadata.",
+  "records": {
+    "19": {
+      "shape": "circle",
+      "evidence": "A round coin body with a separate small hanging ring above it.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.19"
+    },
+    "34": {
+      "shape": "circle",
+      "evidence": "A round medal with a continuous circular rim; the elongated suspension slot remains inside the body.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.34"
+    },
+    "53": {
+      "shape": "shield",
+      "evidence": "Broad badge shoulders, concave sides and a tapered pointed lower end form a shield silhouette.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.53"
+    },
+    "56": {
+      "shape": "rectangle",
+      "evidence": "A broad rectangular plate with nearly straight upper and side edges, rounded corners and minor bottom-edge notches.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.56"
+    },
+    "60": {
+      "shape": "rectangle",
+      "evidence": "A nearly square baggage-check plate with straight edges and rounded corners; the elongated slot is internal.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.60"
+    },
+    "65": {
+      "shape": "shield",
+      "evidence": "Broad angular shoulders and indented sides taper into a central bottom point; the upper slot is internal.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.65"
+    },
+    "76": {
+      "shape": "rectangle",
+      "evidence": "A long narrow plate with parallel straight upper and lower edges and slightly chamfered short ends.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.76"
+    },
+    "80": {
+      "shape": "circle",
+      "evidence": "The brass token is a round disc, with a large hole near the top edge.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.80"
+    },
+    "84": {
+      "shape": "circle",
+      "evidence": "A round hotel-key disc with a large internal hole near the upper edge.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.84"
+    },
+    "91": {
+      "shape": "shield",
+      "evidence": "A broad upper plate narrows through curved lower sides into a central bottom point.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.91"
+    },
+    "92": {
+      "shape": "shield",
+      "evidence": "Angular upper shoulders, concave side edges and a tapered central bottom point form a shield body.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.92"
+    },
+    "93": {
+      "shape": "circle",
+      "evidence": "The repair-shop token has a round outer perimeter, independent of its engraved lettering.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.93"
+    },
+    "99": {
+      "shape": "shield",
+      "evidence": "The badge body has broad upper shoulders, a narrowed waist and a tapered rounded lower tip; the top suspension lug is excluded.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.99"
+    },
+    "103": {
+      "shape": "circle",
+      "evidence": "A round copper disc with a continuous circular edge and an elongated slot near the top.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.103"
+    },
+    "104": {
+      "shape": "circle",
+      "evidence": "A round brass main body below a small circular suspension lug.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.104"
+    },
+    "106": {
+      "shape": "shield",
+      "evidence": "The badge has a wide scalloped upper edge, inward-curving sides and a central pointed bottom.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.106"
+    },
+    "107": {
+      "shape": "oval",
+      "evidence": "The spoon bowl forms an elongated rounded oval; the small surviving handle attachment is excluded from the body outline.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.107"
+    },
+    "109": {
+      "shape": "rectangle",
+      "evidence": "A long thin strip with parallel straight long edges and mostly straight short ends.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.109"
+    },
+    "110": {
+      "shape": "irregular",
+      "evidence": "The body is an open horseshoe or inverted U, with a curved upper arch and two separate straight lower legs.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.110"
+    },
+    "116": {
+      "shape": "circle",
+      "evidence": "The outer body is a circular ring; star-shaped internal cutouts do not alter its round outer silhouette.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.116"
+    },
+    "117": {
+      "shape": "circle",
+      "evidence": "A circular disc with many small uniform serrations around its circumference; the fine teeth retain its dominant round body.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.117"
+    },
+    "120": {
+      "shape": "circle",
+      "evidence": "The postal tag is a round disc with a small hole at its upper edge.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.120"
+    },
+    "121": {
+      "shape": "shield",
+      "evidence": "A badge with flared shoulders, an inward-curving waist, a broad lower bowl and a central bottom point.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.121"
+    },
+    "122": {
+      "shape": "triangle",
+      "evidence": "Two long sloping sides rise to a top apex above a broad flat base; small clipped lower corners do not change the dominant triangular body.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.122"
+    },
+    "124": {
+      "shape": "irregular",
+      "evidence": "Many large pointed and rounded rays form a sunburst silhouette; the outer edge is deeply lobed.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.124"
+    },
+    "144": {
+      "shape": "oval",
+      "evidence": "An elongated oval plate with smoothly rounded ends and a hole near the left edge.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.144"
+    },
+    "145": {
+      "shape": "circle",
+      "evidence": "A round dark medal with a continuous circular rim and a small internal top hole.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.145"
+    },
+    "148": {
+      "shape": "irregular",
+      "evidence": "Deep rounded notches and broad gear-like teeth repeatedly interrupt the outer perimeter.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.148"
+    },
+    "150": {
+      "shape": "shield",
+      "evidence": "Angular shoulders and curved inward sides broaden lower down before tapering to a central bottom point.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.150"
+    },
+    "151": {
+      "shape": "circle",
+      "evidence": "A round plate with a circular outer edge and a small internal top hole.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.151"
+    },
+    "153": {
+      "shape": "circle",
+      "evidence": "A round coin-like disc with a continuous circular border; the hole near the rim is internal.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.153"
+    },
+    "164": {
+      "shape": "shield",
+      "evidence": "The baggage badge has broad angular upper shoulders, inward-curving side edges and a central lower point.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.164"
+    },
+    "183": {
+      "shape": "circle",
+      "evidence": "A round copper disc with an internal suspension hole near the top.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.183"
+    },
+    "190": {
+      "shape": "polygon",
+      "evidence": "The main plate is an eight-sided angular body with clipped corners; its upper slot is internal.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.190"
+    },
+    "196": {
+      "shape": "oval",
+      "evidence": "A horizontal oval plate with a continuous rounded perimeter and an internal hole at the left.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.196"
+    },
+    "199": {
+      "shape": "circle",
+      "evidence": "A nearly circular disc with a continuous round rim and an internal top hole.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.199"
+    },
+    "202": {
+      "shape": "rectangle",
+      "evidence": "A long horizontal plate with straight parallel top and bottom edges and heavily rounded short ends.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.202"
+    },
+    "203": {
+      "shape": "irregular",
+      "evidence": "The ornate badge has a domed upper section and strongly scalloped, lobed lower and side borders; its outer silhouette is more complex than a plain shield.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.203"
+    },
+    "205": {
+      "shape": "polygon",
+      "evidence": "The main body has a broad angled shoulder, two inward-tapering straight sides and a flat narrow base; the top circular lug is excluded.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.205"
+    },
+    "207": {
+      "shape": "rectangle",
+      "evidence": "A tall rectangular lunch plate with straight sides and gently rounded corners.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.207"
+    },
+    "210": {
+      "shape": "circle",
+      "evidence": "A circular medal body below a small rectangular suspension attachment; the attachment is excluded.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.210"
+    },
+    "211": {
+      "shape": "circle",
+      "evidence": "A nearly circular metal disc with a small internal hole near the top.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.211"
+    },
+    "216": {
+      "shape": "circle",
+      "evidence": "The main token is a round disc beneath a thin wire loop; the loop is excluded.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.216"
+    },
+    "219": {
+      "shape": "irregular",
+      "evidence": "Large rounded lobes form a scalloped flower-like perimeter around the token; the wire above it is excluded.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.219"
+    },
+    "229": {
+      "shape": "circle",
+      "evidence": "The large metal disc has a round perimeter and a small internal hole near the top.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.229"
+    },
+    "230": {
+      "shape": "rectangle",
+      "evidence": "A long narrow plate with parallel horizontal edges, a straighter left end and a rounded right end.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.230"
+    },
+    "239": {
+      "shape": "irregular",
+      "evidence": "A dense ornate scalloped border creates an uneven outer silhouette around an oval central field.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.239"
+    },
+    "243": {
+      "shape": "rectangle",
+      "evidence": "A broad rectangular plate with straight sides and small chamfers at the corners.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.243"
+    },
+    "337": {
+      "shape": "circle",
+      "evidence": "The medal has a round outer rim surrounding the portrait; the top hole is internal.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.337"
+    },
+    "368": {
+      "shape": "rectangle",
+      "evidence": "A small horizontal rectangular plate with parallel straight edges, rounded corners and decoration within its upper-right corner.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.368"
+    },
+    "369": {
+      "shape": "circle",
+      "evidence": "A round disc with a continuous circular outer edge and a top suspension hole.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.369"
+    },
+    "374": {
+      "shape": "rectangle",
+      "evidence": "A narrow horizontal plate with parallel straight upper and lower edges; the small left hole tab is excluded from its principal body.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.374"
+    },
+    "376": {
+      "shape": "oval",
+      "evidence": "A small horizontal oval with a continuous smooth elliptical perimeter.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.376"
+    },
+    "406": {
+      "shape": "oval",
+      "evidence": "The horizontal main body has a smooth elongated oval perimeter, with a hole near its left edge.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.406"
+    },
+    "425": {
+      "shape": "rectangle",
+      "evidence": "The broad baggage plate has nearly straight side edges and a rounded flat base; raised shoulders and the upper handle slot are excluded from the principal body.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.425"
+    },
+    "451": {
+      "shape": "rectangle",
+      "evidence": "A narrow horizontal plate with long parallel straight edges and rounded short ends.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.451"
+    },
+    "453": {
+      "shape": "rectangle",
+      "evidence": "The broad baggage plate has nearly straight sides and a rounded flat lower edge; the raised upper handle does not change its principally rectangular body.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.453"
+    },
+    "455": {
+      "shape": "rectangle",
+      "evidence": "A horizontal plate with parallel straight long edges, short straight ends and rounded corners.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.455"
+    },
+    "457": {
+      "shape": "circle",
+      "evidence": "A circular coin body with an internal hole near the upper edge.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.457"
+    },
+    "463": {
+      "shape": "circle",
+      "evidence": "A round medal disc with a continuous outer rim and an internal suspension hole.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.463"
+    },
+    "474": {
+      "shape": "circle",
+      "evidence": "The main metal disc has a continuous round perimeter; the two suspension holes do not change its body shape.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.474"
+    },
+    "475": {
+      "shape": "circle",
+      "evidence": "A circular body with a wide internal suspension slot near the upper edge.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.475"
+    },
+    "481": {
+      "shape": "polygon",
+      "evidence": "The elongated main body has straight sides, angled shoulders and noticeably clipped lower corners; the circular top lug is excluded.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.481"
+    },
+    "482": {
+      "shape": "oval",
+      "evidence": "A tall narrow oval with smoothly curved sides and rounded upper and lower ends.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.482"
+    },
+    "488": {
+      "shape": "rectangle",
+      "evidence": "A rectangular collar plate with straight horizontal upper and lower edges and straight short sides.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.488"
+    },
+    "96.7": {
+      "shape": "polygon",
+      "evidence": "The long leather tag has straight upper and lower edges, but large clipped right corners and smaller clipped left corners make a many-sided outline.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.96.7"
+    },
+    "96.11": {
+      "shape": "rectangle",
+      "evidence": "A single broad leather main body has parallel long edges and rounded corners; the small projecting right attachment tab is excluded.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.96.11"
+    },
+    "18": {
+      "shape": "irregular",
+      "evidence": "Sunburst body with many pointed rays and rounded end projections.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.18"
+    },
+    "20": {
+      "shape": "circle",
+      "evidence": "Broad round disc with a continuous curved perimeter.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.20"
+    },
+    "21": {
+      "shape": "circle",
+      "evidence": "Round medallion body; separate hanging ring excluded.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.21"
+    },
+    "22": {
+      "shape": "rectangle",
+      "evidence": "Tall rectangular plate with rounded corners and straight sides.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.22"
+    },
+    "23": {
+      "shape": "circle",
+      "evidence": "Circular disc with small uniform rim serrations.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.23"
+    },
+    "24": {
+      "shape": "rectangle",
+      "evidence": "Rectangular plaque with straight sides and small stepped end corners.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.24"
+    },
+    "25": {
+      "shape": "circle",
+      "evidence": "Round disc with no major outer contour projections.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.25"
+    },
+    "26": {
+      "shape": "irregular",
+      "evidence": "Waisted body with inward-curving sides and broad rounded ends.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.26"
+    },
+    "27": {
+      "shape": "irregular",
+      "evidence": "Lobed body with a broad middle, narrower shoulders, and scalloped base.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.27"
+    },
+    "28": {
+      "shape": "circle",
+      "evidence": "Round disc with a smooth outer circumference.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.28"
+    },
+    "29": {
+      "shape": "circle",
+      "evidence": "Circular token body with a small evenly textured rim.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.29"
+    },
+    "30": {
+      "shape": "irregular",
+      "evidence": "Open ornamental monogram contour with curls and narrow extensions.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.30"
+    },
+    "31": {
+      "shape": "oval",
+      "evidence": "Clearly elongated horizontal oval with a continuous curved rim.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.31"
+    },
+    "32": {
+      "shape": "circle",
+      "evidence": "Round disc; the slot does not alter the main body outline.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.32"
+    },
+    "33": {
+      "shape": "oval",
+      "evidence": "Slightly elongated vertical oval with rounded top and bottom.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.33"
+    },
+    "35": {
+      "shape": "circle",
+      "evidence": "Circular disc with small uniform rim texture.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.35"
+    },
+    "36": {
+      "shape": "oval",
+      "evidence": "Long horizontal oval body with rounded ends.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.36"
+    },
+    "37": {
+      "shape": "circle",
+      "evidence": "Circular disc; the small lower-edge hole is excluded.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.37"
+    },
+    "38": {
+      "shape": "circle",
+      "evidence": "Round medallion body with a lightly serrated outer rim.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.38"
+    },
+    "39": {
+      "shape": "oval",
+      "evidence": "Wide horizontal oval with a smooth continuous outline.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.39"
+    },
+    "40": {
+      "shape": "circle",
+      "evidence": "Circular disc with fine evenly spaced rim serrations.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.40"
+    },
+    "41": {
+      "shape": "polygon",
+      "evidence": "Eight straight outer sides form a distinct octagon.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.41"
+    },
+    "42": {
+      "shape": "rectangle",
+      "evidence": "Tall straight-sided plate with rounded upper and lower corners.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.42"
+    },
+    "43": {
+      "shape": "circle",
+      "evidence": "Round disc with a continuous circular body outline.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.43"
+    },
+    "44": {
+      "shape": "circle",
+      "evidence": "Round token body with small regular rim serrations.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.44"
+    },
+    "45": {
+      "shape": "circle",
+      "evidence": "Circular coin-like body with an evenly textured rim.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.45"
+    },
+    "46": {
+      "shape": "circle",
+      "evidence": "Round disc with small uniform edge serrations.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.46"
+    },
+    "47": {
+      "shape": "irregular",
+      "evidence": "Many-ray sunburst contour surrounding a round center.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.47"
+    },
+    "48": {
+      "shape": "shield",
+      "evidence": "Broad upper shoulders taper through curved sides to a bottom point.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.48"
+    },
+    "49": {
+      "shape": "rectangle",
+      "evidence": "Straight-sided rectangular plate with broadly rounded bottom corners.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.49"
+    },
+    "50": {
+      "shape": "irregular",
+      "evidence": "Sunburst body with many large pointed rays.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.50"
+    },
+    "51": {
+      "shape": "polygon",
+      "evidence": "Four straight sides form a tall diamond.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.51"
+    },
+    "52": {
+      "shape": "polygon",
+      "evidence": "Four angular sides form a diamond-shaped body.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.52"
+    },
+    "54": {
+      "shape": "rectangle",
+      "evidence": "Tall rectangular plate with small rounded corners.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.54"
+    },
+    "55": {
+      "shape": "circle",
+      "evidence": "Round disc with a smooth overall circumference.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.55"
+    },
+    "57": {
+      "shape": "irregular",
+      "evidence": "Oval central badge has integral pointed ribbon-like extensions at both sides.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.57"
+    },
+    "58": {
+      "shape": "circle",
+      "evidence": "Circular medallion body with small rim serrations.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.58"
+    },
+    "59": {
+      "shape": "rectangle",
+      "evidence": "Tall rectangular body with straight sides and rounded corners.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.59"
+    },
+    "61": {
+      "shape": "circle",
+      "evidence": "Round main disc; the separate hanging ring is excluded.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.61"
+    },
+    "62": {
+      "shape": "rectangle",
+      "evidence": "Tall rectangular plaque with rounded corners.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.62"
+    },
+    "63": {
+      "shape": "irregular",
+      "evidence": "Bell-like body widens below sloping shoulders and ends in two rounded lower lobes.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.63"
+    },
+    "64": {
+      "shape": "shield",
+      "evidence": "Broad upper shoulders narrow down to a central bottom point.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.64"
+    },
+    "66": {
+      "shape": "circle",
+      "evidence": "Round disc with a continuous circular perimeter.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.66"
+    },
+    "67": {
+      "shape": "rectangle",
+      "evidence": "Squarish rectangular plate with straight sides and rounded corners.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.67"
+    },
+    "68": {
+      "shape": "rectangle",
+      "evidence": "Rectangular plaque with straight side edges and small stepped end corners.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.68"
+    },
+    "69": {
+      "shape": "circle",
+      "evidence": "Circular disc body despite slight wear along the rim.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.69"
+    },
+    "70": {
+      "shape": "polygon",
+      "evidence": "Straight angular edges form a six-point star; hanging eyelet excluded.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.70"
+    },
+    "71": {
+      "shape": "irregular",
+      "evidence": "Ornamental plaque has four broad end lobes and deeply indented side shoulders.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.71"
+    },
+    "72": {
+      "shape": "rectangle",
+      "evidence": "Tall straight-sided rectangle with rounded corners.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.72"
+    },
+    "73": {
+      "shape": "shield",
+      "evidence": "Broad upper shoulders taper through curved sides to a lower point.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.73"
+    },
+    "74": {
+      "shape": "polygon",
+      "evidence": "Four straight sides form a tall diamond.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.74"
+    },
+    "75": {
+      "shape": "polygon",
+      "evidence": "Eight straight edges form an octagonal body.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.75"
+    },
+    "77": {
+      "shape": "polygon",
+      "evidence": "Long eight-sided plaque with four clear diagonal corner cuts.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.77"
+    },
+    "78": {
+      "shape": "circle",
+      "evidence": "Circular medal body with small regular rim serrations.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.78"
+    },
+    "79": {
+      "shape": "polygon",
+      "evidence": "Angular plaque has four pronounced diagonal corner cuts and short flat ends.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.79"
+    },
+    "81": {
+      "shape": "circle",
+      "evidence": "Round disc with a fine uniformly serrated rim.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.81"
+    },
+    "82": {
+      "shape": "circle",
+      "evidence": "Round disc; large internal hanging hole excluded.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.82"
+    },
+    "83": {
+      "shape": "irregular",
+      "evidence": "Low ornamental label has a raised central crown and curved stepped shoulders.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.83"
+    },
+    "85": {
+      "shape": "oval",
+      "evidence": "Wide horizontal oval body with continuous curved sides.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.85"
+    },
+    "86": {
+      "shape": "rectangle",
+      "evidence": "Tall rectangular plate with straight sides and rounded corners.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.86"
+    },
+    "87": {
+      "shape": "rectangle",
+      "evidence": "Tall rectangular body with small rounded corners.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.87"
+    },
+    "88": {
+      "shape": "unclassified",
+      "evidence": "Straight sides and flat base support rectangle, but the full domed top makes the body category uncertain.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.88"
+    },
+    "89": {
+      "shape": "rectangle",
+      "evidence": "Tall rectangular plate with four rounded corners.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.89"
+    },
+    "90": {
+      "shape": "circle",
+      "evidence": "Round disc with a smooth circular perimeter.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.90"
+    },
+    "94": {
+      "shape": "irregular",
+      "evidence": "Teardrop-like body has a narrow peaked top and a broad rounded lower edge.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.94"
+    },
+    "95.1": {
+      "shape": "oval",
+      "evidence": "Elongated horizontal oval with a continuous curved rim.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.95.1"
+    },
+    "95.2": {
+      "shape": "irregular",
+      "evidence": "Flower-like body has several large rounded outer lobes.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.95.2"
+    },
+    "96.1": {
+      "shape": "circle",
+      "evidence": "Round main disc; tiny side fitting excluded.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.96.1"
+    },
+    "96.2": {
+      "shape": "circle",
+      "evidence": "Round disc with a small local rim notch near an opening.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.96.2"
+    },
+    "96.3": {
+      "shape": "circle",
+      "evidence": "Round disc body with an uninterrupted overall circular silhouette.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.96.3"
+    },
+    "96.4": {
+      "shape": "rectangle",
+      "evidence": "Squarish rectangular piece with one clipped upper corner and slightly rounded remaining corners.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.96.4"
+    },
+    "96.5": {
+      "shape": "rectangle",
+      "evidence": "Horizontal rounded rectangular body; narrow left attachment excluded.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.96.5"
+    },
+    "96.6": {
+      "shape": "oval",
+      "evidence": "Long vertical oval main body; separate upper loop excluded.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.96.6"
+    },
+    "96.8": {
+      "shape": "rectangle",
+      "evidence": "Straight-sided rectangular lower body with rounded corners and a narrow attachment neck.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.96.8"
+    },
+    "96.9": {
+      "shape": "polygon",
+      "evidence": "Tall six-sided plaque with two diagonal upper shoulders and a short flat top.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.96.9"
+    },
+    "96.10": {
+      "shape": "rectangle",
+      "evidence": "Horizontal rounded rectangular panel; small left attachment excluded.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.96.10"
+    },
+    "96.12": {
+      "shape": "rectangle",
+      "evidence": "Horizontal rounded rectangular main panel with a small left fitting.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.96.12"
+    },
+    "96.13": {
+      "shape": "unclassified",
+      "evidence": "Tall arched top, widening straight sides, and shallow bottom point do not clearly resolve to shield or another standard body shape.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.96.13"
+    },
+    "96.14": {
+      "shape": "rectangle",
+      "evidence": "Horizontal rectangular main panel with rounded corners and a small pointed attachment end.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.96.14"
+    },
+    "96.15": {
+      "shape": "rectangle",
+      "evidence": "Tall straight-sided rectangle with rounded corners.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.96.15"
+    },
+    "96.16": {
+      "shape": "circle",
+      "evidence": "Round disc body with a smooth overall circumference.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.96.16"
+    },
+    "96.17": {
+      "shape": "circle",
+      "evidence": "Circular disc with a small uniformly textured rim.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.96.17"
+    },
+    "100": {
+      "shape": "circle",
+      "evidence": "Round disc body with a continuous curved perimeter.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.100"
+    },
+    "101": {
+      "shape": "circle",
+      "evidence": "Circular medal body with a small regular rim texture.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.101"
+    },
+    "102": {
+      "shape": "irregular",
+      "evidence": "Many-ray sunburst body with prominent pointed outer rays.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.102"
+    },
+    "105": {
+      "shape": "triangle",
+      "evidence": "Three straight edges form an upright triangular body.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.105"
+    },
+    "108": {
+      "shape": "irregular",
+      "evidence": "Cross-shaped body with four splayed arms and deep inward notches.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.108"
+    },
+    "111": {
+      "shape": "irregular",
+      "evidence": "Domed bell-like body ends in several pronounced rounded bottom lobes.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.111"
+    },
+    "112": {
+      "shape": "circle",
+      "evidence": "Circular disc with small uniform rim serrations; internal holes excluded.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.112"
+    },
+    "113": {
+      "shape": "rectangle",
+      "evidence": "Squarish plate has four principal straight sides despite local wear.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.113"
+    },
+    "114": {
+      "shape": "shield",
+      "evidence": "Broad upper shoulders taper through curved sides to a clear lower point.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.114"
+    },
+    "115": {
+      "shape": "circle",
+      "evidence": "Round main disc; projecting upper hanging eyelet excluded.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.115"
+    },
+    "118": {
+      "shape": "irregular",
+      "evidence": "Long ornamental label has scalloped edges and lobed ends.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.118"
+    },
+    "119": {
+      "shape": "oval",
+      "evidence": "Wide horizontal oval with continuous curved ends.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.119"
+    },
+    "123": {
+      "shape": "oval",
+      "evidence": "Elongated horizontal oval body with a smooth outer outline.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.123"
+    },
+    "125": {
+      "shape": "rectangle",
+      "evidence": "Squarish rectangular plate with rounded corners.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.125"
+    },
+    "126": {
+      "shape": "irregular",
+      "evidence": "Ornamental squarish body has large inward-curved corner cutouts and uneven lower detailing.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.126"
+    },
+    "127": {
+      "shape": "irregular",
+      "evidence": "Flower-like contour has several broad rounded lobes.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.127"
+    },
+    "128": {
+      "shape": "polygon",
+      "evidence": "Main plate is a straight-sided trapezoid, wider at the top; hanging eyelet excluded.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.128"
+    },
+    "129": {
+      "shape": "irregular",
+      "evidence": "Large rounded lobes form a flower-like outer contour.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.129"
+    },
+    "130": {
+      "shape": "circle",
+      "evidence": "Round disc with a smooth continuous circumference.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.130"
+    },
+    "131": {
+      "shape": "shield",
+      "evidence": "Broad angular upper shoulders taper through curved sides to a central bottom point.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.131"
+    },
+    "132": {
+      "shape": "shield",
+      "evidence": "Broad angled shoulders narrow through curved side edges to a rounded lower point.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.132"
+    },
+    "133": {
+      "shape": "oval",
+      "evidence": "Wide horizontal oval body with continuous rounded ends.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.133"
+    },
+    "134": {
+      "shape": "circle",
+      "evidence": "Round disk with a continuous circular rim.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.134"
+    },
+    "135": {
+      "shape": "oval",
+      "evidence": "Long horizontal body with smoothly rounded ends.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.135"
+    },
+    "136": {
+      "shape": "rectangle",
+      "evidence": "Suitcase body has long straight opposite edges and squared corners.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.136"
+    },
+    "137": {
+      "shape": "rectangle",
+      "evidence": "Tall straight-sided plate with a flat base and small top shoulders.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.137"
+    },
+    "138": {
+      "shape": "polygon",
+      "evidence": "Faceted perimeter has several distinct straight sides and angular corners.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.138"
+    },
+    "139": {
+      "shape": "irregular",
+      "evidence": "Pronounced ornamental scallops run around the perimeter.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.139"
+    },
+    "140": {
+      "shape": "rectangle",
+      "evidence": "Four straight sides form a nearly square plate with rounded corners.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.140"
+    },
+    "141": {
+      "shape": "shield",
+      "evidence": "Broad shoulders narrow into a pointed lower tip.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.141"
+    },
+    "142": {
+      "shape": "shield",
+      "evidence": "Wide upper body tapers into a central bottom point.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.142"
+    },
+    "143": {
+      "shape": "oval",
+      "evidence": "Elongated horizontal oval with a smoothly curved rim.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.143"
+    },
+    "146": {
+      "shape": "oval",
+      "evidence": "Long oval body with rounded ends.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.146"
+    },
+    "147": {
+      "shape": "rectangle",
+      "evidence": "Short horizontal plate has straight sides and rounded corners.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.147"
+    },
+    "149": {
+      "shape": "shield",
+      "evidence": "Broad lobed shoulders narrow toward a pointed lower end.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.149"
+    },
+    "152": {
+      "shape": "circle",
+      "evidence": "Main disk has a circular outer rim.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.152"
+    },
+    "154": {
+      "shape": "rectangle",
+      "evidence": "Tall plate retains straight opposite sides despite small stepped corners.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.154"
+    },
+    "155": {
+      "shape": "shield",
+      "evidence": "Broad upper shoulders and curved sides taper to a bottom point.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.155"
+    },
+    "156": {
+      "shape": "rectangle",
+      "evidence": "Straight-sided tall plate has modest scalloped corner variations.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.156"
+    },
+    "157": {
+      "shape": "circle",
+      "evidence": "Main body is a near-circular disk.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.157"
+    },
+    "158": {
+      "shape": "rectangle",
+      "evidence": "Four straight sides with gently rounded corners.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.158"
+    },
+    "159": {
+      "shape": "rectangle",
+      "evidence": "Tall rectangular plate has long parallel sides and rounded corners.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.159"
+    },
+    "160": {
+      "shape": "circle",
+      "evidence": "Round disk with an evenly curved outer boundary.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.160"
+    },
+    "161": {
+      "shape": "shield",
+      "evidence": "Flat upper shoulders lead into a strongly rounded tapering base.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.161"
+    },
+    "162": {
+      "shape": "circle",
+      "evidence": "Main body is circular around the slot.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.162"
+    },
+    "163": {
+      "shape": "rectangle",
+      "evidence": "Tall plate has parallel sides, a flat base and rounded corners.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.163"
+    },
+    "165": {
+      "shape": "irregular",
+      "evidence": "Deep rounded rays make a sunburst outline.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.165"
+    },
+    "166": {
+      "shape": "rectangle",
+      "evidence": "Narrow horizontal plate has straight long edges and rounded ends.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.166"
+    },
+    "167": {
+      "shape": "polygon",
+      "evidence": "Clipped shoulders and angled lower corners create a many-sided outline.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.167"
+    },
+    "168": {
+      "shape": "shield",
+      "evidence": "Angular upper shoulders narrow through curved sides to a bottom point.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.168"
+    },
+    "169": {
+      "shape": "irregular",
+      "evidence": "Prominent rounded rays extend around a sunburst body.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.169"
+    },
+    "170": {
+      "shape": "rectangle",
+      "evidence": "Tall narrow plate has parallel sides and rounded corners.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.170"
+    },
+    "171": {
+      "shape": "shield",
+      "evidence": "Wide shoulders and inward-curving sides taper to a central lower point.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.171"
+    },
+    "172": {
+      "shape": "circle",
+      "evidence": "Circular disk with a fine repeated rim texture.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.172"
+    },
+    "173": {
+      "shape": "irregular",
+      "evidence": "Bulging middle and narrowed rounded ends create a lobed outline.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.173"
+    },
+    "174": {
+      "shape": "oval",
+      "evidence": "Wide horizontal oval with rounded ends.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.174"
+    },
+    "175": {
+      "shape": "polygon",
+      "evidence": "Distinct clipped corners turn the tall plate into an eight-sided outline.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.175"
+    },
+    "176": {
+      "shape": "circle",
+      "evidence": "Round main disk with a continuous curved rim.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.176"
+    },
+    "177": {
+      "shape": "circle",
+      "evidence": "Circular medal body remains clear despite a damaged top edge.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.177"
+    },
+    "178": {
+      "shape": "rectangle",
+      "evidence": "Narrow horizontal plate has straight long edges and small corner rounding.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.178"
+    },
+    "179": {
+      "shape": "circle",
+      "evidence": "Round disk surrounds the upper slot.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.179"
+    },
+    "180": {
+      "shape": "circle",
+      "evidence": "Main body forms a near-circular disk.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.180"
+    },
+    "181": {
+      "shape": "circle",
+      "evidence": "Round medal body has a continuously curved perimeter.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.181"
+    },
+    "182": {
+      "shape": "circle",
+      "evidence": "Circular outer rim encloses the circular inner design.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.182"
+    },
+    "184": {
+      "shape": "circle",
+      "evidence": "Round disk has small regular rim serrations.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.184"
+    },
+    "185": {
+      "shape": "circle",
+      "evidence": "Main body is a nearly circular disk.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.185"
+    },
+    "186": {
+      "shape": "circle",
+      "evidence": "Round disk with small uniform beading at the rim.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.186"
+    },
+    "187": {
+      "shape": "circle",
+      "evidence": "Outer silhouette is circular; the central opening does not alter it.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.187"
+    },
+    "188": {
+      "shape": "oval",
+      "evidence": "Body is visibly wider than tall with smoothly rounded ends.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.188"
+    },
+    "189": {
+      "shape": "rectangle",
+      "evidence": "Tall plate has straight sides and modest corner rounding.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.189"
+    },
+    "191": {
+      "shape": "rectangle",
+      "evidence": "Main plate has parallel sides and mildly clipped or rounded corners.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.191"
+    },
+    "192": {
+      "shape": "oval",
+      "evidence": "Long horizontal oval with a continuous curved edge.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.192"
+    },
+    "193": {
+      "shape": "circle",
+      "evidence": "Main token body has a round circumference.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.193"
+    },
+    "194": {
+      "shape": "circle",
+      "evidence": "Round medal body surrounds the oversized upper opening.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.194"
+    },
+    "195": {
+      "shape": "circle",
+      "evidence": "Main body is round below the small suspension tab.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.195"
+    },
+    "197": {
+      "shape": "shield",
+      "evidence": "Broad rounded shoulders taper to a pointed lower tip.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.197"
+    },
+    "198": {
+      "shape": "circle",
+      "evidence": "Main medal forms a round disk.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.198"
+    },
+    "201": {
+      "shape": "oval",
+      "evidence": "Elongated horizontal body has smoothly curved ends.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.201"
+    },
+    "204": {
+      "shape": "circle",
+      "evidence": "Round medal with an uninterrupted circular outer rim.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.204"
+    },
+    "206": {
+      "shape": "circle",
+      "evidence": "Circular body with fine uniform edge detailing.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.206"
+    },
+    "208": {
+      "shape": "circle",
+      "evidence": "Main medal is a round disk.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.208"
+    },
+    "209": {
+      "shape": "oval",
+      "evidence": "Long oval body remains clear when its attached wire is ignored.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.209"
+    },
+    "212": {
+      "shape": "circle",
+      "evidence": "Outer perimeter is circular despite several interior openings.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.212"
+    },
+    "213": {
+      "shape": "rectangle",
+      "evidence": "Narrow plate has straight long edges and rounded capsule-like ends.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.213"
+    },
+    "214": {
+      "shape": "rectangle",
+      "evidence": "Horizontal plate has straight long sides and broad rounded corners.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.214"
+    },
+    "215": {
+      "shape": "circle",
+      "evidence": "Circular medal body below the suspension hardware.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.215"
+    },
+    "217": {
+      "shape": "shield",
+      "evidence": "Decorative shoulders taper into a pointed lower tip.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.217"
+    },
+    "218": {
+      "shape": "irregular",
+      "evidence": "Asymmetric ornamental ends and scrolling edges break a simple oval outline.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.218"
+    },
+    "220": {
+      "shape": "oval",
+      "evidence": "Elongated horizontal oval with a continuous rounded rim.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.220"
+    },
+    "221": {
+      "shape": "circle",
+      "evidence": "Main medallion is a round disk below the loop.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.221"
+    },
+    "222": {
+      "shape": "irregular",
+      "evidence": "Long pointed rays form a starburst perimeter.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.222"
+    },
+    "223": {
+      "shape": "circle",
+      "evidence": "Round disk with a continuous curved edge.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.223"
+    },
+    "224": {
+      "shape": "circle",
+      "evidence": "Main medal body has a circular perimeter.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.224"
+    },
+    "225": {
+      "shape": "rectangle",
+      "evidence": "Four straight equal sides form a square rotated diagonally.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.225"
+    },
+    "226": {
+      "shape": "shield",
+      "evidence": "Rounded side shoulders narrow into a pointed base.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.226"
+    },
+    "227": {
+      "shape": "circle",
+      "evidence": "Round token with a continuously curved rim.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.227"
+    },
+    "228": {
+      "shape": "circle",
+      "evidence": "Main body is a near-circular disk.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.228"
+    },
+    "231": {
+      "shape": "circle",
+      "evidence": "Round button face with small regular rim texture.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.231"
+    },
+    "232": {
+      "shape": "circle",
+      "evidence": "Round button face with an evenly curved rim.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.232"
+    },
+    "233": {
+      "shape": "circle",
+      "evidence": "Circular button face with a raised circular border.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.233"
+    },
+    "234": {
+      "shape": "circle",
+      "evidence": "Main button face is round despite the angled relief.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.234"
+    },
+    "235": {
+      "shape": "circle",
+      "evidence": "Round button body has small uniform edge serrations.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.235"
+    },
+    "236": {
+      "shape": "circle",
+      "evidence": "Circular button face with a fine repeated rim.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.236"
+    },
+    "237": {
+      "shape": "circle",
+      "evidence": "Main button body has a round outer boundary.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.237"
+    },
+    "238": {
+      "shape": "circle",
+      "evidence": "Circular button face with small rim wear.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.238"
+    },
+    "240": {
+      "shape": "circle",
+      "evidence": "Round outer disk; the star opening is internal.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.240"
+    },
+    "241": {
+      "shape": "circle",
+      "evidence": "Main tag body forms a circular disk.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.241"
+    },
+    "242": {
+      "shape": "circle",
+      "evidence": "Round medal with a continuous circular rim.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.242"
+    },
+    "244": {
+      "shape": "shield",
+      "evidence": "Flat upper shoulders and straight sides taper into a rounded base.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.244"
+    },
+    "245": {
+      "shape": "circle",
+      "evidence": "Circular main disk surrounds the upper slot.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.245"
+    },
+    "246": {
+      "shape": "irregular",
+      "evidence": "Deeply indented sides and lobed corners produce a waisted outline.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.246"
+    },
+    "247": {
+      "shape": "irregular",
+      "evidence": "Bell body has a projecting neck and open lower mouth.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.247"
+    },
+    "334": {
+      "shape": "circle",
+      "evidence": "Round medal with an evenly curved outer rim.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.334"
+    },
+    "335": {
+      "shape": "circle",
+      "evidence": "Circular medallion has fine uniform rim texture.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.335"
+    },
+    "336": {
+      "shape": "circle",
+      "evidence": "Round medal with a smooth circular border.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.336"
+    },
+    "365": {
+      "shape": "circle",
+      "evidence": "Main body forms a round medal.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.365"
+    },
+    "366": {
+      "shape": "shield",
+      "evidence": "Broad angular shoulders and inward-curved sides taper to a bottom point.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.366"
+    },
+    "367": {
+      "shape": "circle",
+      "evidence": "Main disk has a round circumference.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.367"
+    },
+    "370": {
+      "shape": "oval",
+      "evidence": "Main lower body is elongated vertically with rounded sides and base.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.370"
+    },
+    "371": {
+      "shape": "circle",
+      "evidence": "Circular medal body with a continuous outer rim.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.371"
+    },
+    "372": {
+      "shape": "circle",
+      "evidence": "Round main disk surrounds the upper opening.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.372"
+    },
+    "373": {
+      "shape": "circle",
+      "evidence": "Main body has a circular outer boundary.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.373"
+    },
+    "375": {
+      "shape": "circle",
+      "evidence": "Circular disk with small regular rim beads.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.375"
+    },
+    "377": {
+      "shape": "irregular",
+      "evidence": "House-shaped contour has a projecting roof and stepped sides.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.377"
+    },
+    "378": {
+      "shape": "oval",
+      "evidence": "Body is vertically elongated with rounded sides and a short flat top.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.378"
+    },
+    "379": {
+      "shape": "irregular",
+      "evidence": "Three rounded lobes and indented sides form a clover-like outline.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.379"
+    },
+    "200": {
+      "shape": "irregular",
+      "evidence": "Long crescent-like curved tag tapers toward one end.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.200"
+    },
+    "380": {
+      "shape": "circle",
+      "evidence": "Round coin body with a small damaged area at the edge.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.380"
+    },
+    "381": {
+      "shape": "oval",
+      "evidence": "Wide horizontal ellipse forms the engraved plate.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.381"
+    },
+    "382": {
+      "shape": "circle",
+      "evidence": "Near-circular brass disk; the suspension opening is internal.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.382"
+    },
+    "383": {
+      "shape": "oval",
+      "evidence": "Horizontal elliptical engraved plate.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.383"
+    },
+    "384": {
+      "shape": "rectangle",
+      "evidence": "Upright rectangular body with rounded corners and small stepped shoulders.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.384"
+    },
+    "385": {
+      "shape": "oval",
+      "evidence": "Vertically oval case body beneath a separate suspension bow.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.385"
+    },
+    "386": {
+      "shape": "irregular",
+      "evidence": "Strongly waisted two-lobed body, wider at the rounded base.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.386"
+    },
+    "387": {
+      "shape": "circle",
+      "evidence": "Round disk with an internal horizontal slot.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.387"
+    },
+    "388": {
+      "shape": "circle",
+      "evidence": "Circular brass disk despite the internal slot.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.388"
+    },
+    "389": {
+      "shape": "shield",
+      "evidence": "Broad shoulders narrow toward a pointed lower edge.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.389"
+    },
+    "390": {
+      "shape": "irregular",
+      "evidence": "Two rounded lobes meet at a pronounced narrow waist.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.390"
+    },
+    "391": {
+      "shape": "circle",
+      "evidence": "Round postal-clerk disk; the top hole does not change its perimeter.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.391"
+    },
+    "392": {
+      "shape": "rectangle",
+      "evidence": "Tall plate with four rounded corners and nearly straight opposing sides.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.392"
+    },
+    "393": {
+      "shape": "rectangle",
+      "evidence": "Rounded rectangular body with modest inward curvature along its sides.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.393"
+    },
+    "394": {
+      "shape": "oval",
+      "evidence": "Wide horizontal ellipse.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.394"
+    },
+    "395": {
+      "shape": "irregular",
+      "evidence": "Bell-like body broadens toward a curved base beneath a raised slotted tab.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.395"
+    },
+    "396": {
+      "shape": "circle",
+      "evidence": "Round hotel disk with an internal slot.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.396"
+    },
+    "397": {
+      "shape": "oval",
+      "evidence": "Elliptical engraved body; projecting attachment wire is excluded.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.397"
+    },
+    "398": {
+      "shape": "shield",
+      "evidence": "Lobed upper shoulders taper to a narrow pointed bottom.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.398"
+    },
+    "399": {
+      "shape": "circle",
+      "evidence": "Near-circular disk with a small internal top opening.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.399"
+    },
+    "400": {
+      "shape": "circle",
+      "evidence": "Continuous round medal perimeter.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.400"
+    },
+    "401": {
+      "shape": "circle",
+      "evidence": "Round medal with an internal suspension opening.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.401"
+    },
+    "402": {
+      "shape": "irregular",
+      "evidence": "Bell and linked metal assembly shown in a cropped detail photograph.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.402"
+    },
+    "403": {
+      "shape": "oval",
+      "evidence": "Horizontal elliptical insurance tag.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.403"
+    },
+    "404": {
+      "shape": "irregular",
+      "evidence": "Key silhouette with a rounded bow and long narrow shaft.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.404"
+    },
+    "405": {
+      "shape": "irregular",
+      "evidence": "Key silhouette with a circular bow and straight shaft.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.405"
+    },
+    "407": {
+      "shape": "irregular",
+      "evidence": "Cross-shaped medal with four flared arms.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.407"
+    },
+    "408": {
+      "shape": "circle",
+      "evidence": "Circular trade-token body.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.408"
+    },
+    "409": {
+      "shape": "irregular",
+      "evidence": "Long flared stem ends in a round lobe, with angular steps at the other end.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.409"
+    },
+    "410": {
+      "shape": "shield",
+      "evidence": "Broad shoulders taper toward a narrower flat base; rings are excluded.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.410"
+    },
+    "411": {
+      "shape": "circle",
+      "evidence": "Round disk with a uniformly decorated rim.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.411"
+    },
+    "412": {
+      "shape": "circle",
+      "evidence": "Circular numbered token.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.412"
+    },
+    "413": {
+      "shape": "circle",
+      "evidence": "Circular trade token.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.413"
+    },
+    "414": {
+      "shape": "circle",
+      "evidence": "Circular red token with a continuous curved outer edge.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.414"
+    },
+    "415": {
+      "shape": "circle",
+      "evidence": "Circular medal with a lightly serrated rim.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.415"
+    },
+    "416": {
+      "shape": "circle",
+      "evidence": "Round numbered token with a small top hole.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.416"
+    },
+    "417": {
+      "shape": "shield",
+      "evidence": "Wide upper shoulders taper to a pointed bottom.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.417"
+    },
+    "418": {
+      "shape": "oval",
+      "evidence": "Horizontal elliptical engraved plate.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.418"
+    },
+    "419": {
+      "shape": "irregular",
+      "evidence": "Ornate scalloped cartouche has a shaped crown and uneven lobed border.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.419"
+    },
+    "420": {
+      "shape": "irregular",
+      "evidence": "Pointed upper end and two rounded lower lobes form a spade-like outline.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.420"
+    },
+    "421": {
+      "shape": "shield",
+      "evidence": "Broad shoulder line tapers to a narrow, rounded flat base; top loop is excluded.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.421"
+    },
+    "422": {
+      "shape": "irregular",
+      "evidence": "Multiple broad rounded lobes form a flower-like outline.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.422"
+    },
+    "423": {
+      "shape": "oval",
+      "evidence": "Horizontal elliptical plate.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.423"
+    },
+    "424": {
+      "shape": "shield",
+      "evidence": "Broad top narrows to a pointed bottom; separate ring is excluded.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.424"
+    },
+    "426": {
+      "shape": "circle",
+      "evidence": "Circular coin-like disk.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.426"
+    },
+    "427": {
+      "shape": "irregular",
+      "evidence": "Key-like outline combines a round end, tapered stem, and stepped head.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.427"
+    },
+    "428": {
+      "shape": "oval",
+      "evidence": "Horizontal elliptical engraved plate.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.428"
+    },
+    "429": {
+      "shape": "circle",
+      "evidence": "Circular medal body; the large projecting ring is excluded.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.429"
+    },
+    "430": {
+      "shape": "irregular",
+      "evidence": "Heart-shaped body has two rounded shoulders and a deep lower point.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.430"
+    },
+    "431": {
+      "shape": "circle",
+      "evidence": "Broad round main disk with a small basal notch; top hanging tab is excluded.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.431"
+    },
+    "432": {
+      "shape": "oval",
+      "evidence": "Vertically oval case body below the top suspension bow.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.432"
+    },
+    "433": {
+      "shape": "unclassified",
+      "evidence": "Open hinged assembly combines an oval front and a broad fan-shaped leaf; a single main silhouette is ambiguous.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.433"
+    },
+    "434": {
+      "shape": "rectangle",
+      "evidence": "Narrow rectangular nameplate with modest shaped ends.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.434"
+    },
+    "435": {
+      "shape": "triangle",
+      "evidence": "Main plate flares from a narrow top into a broad flat base; hanging loop is excluded.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.435"
+    },
+    "436": {
+      "shape": "polygon",
+      "evidence": "Diamond-shaped body with four principal angular sides.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.436"
+    },
+    "437": {
+      "shape": "circle",
+      "evidence": "Circular silver disk with an unbroken rounded perimeter.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.437"
+    },
+    "438": {
+      "shape": "oval",
+      "evidence": "Horizontal elliptical engraved plate.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.438"
+    },
+    "439": {
+      "shape": "circle",
+      "evidence": "Circular trade-token body.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.439"
+    },
+    "440": {
+      "shape": "circle",
+      "evidence": "Round disk with a uniform fine rim.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.440"
+    },
+    "441": {
+      "shape": "circle",
+      "evidence": "Circular brass token with a continuous curved edge.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.441"
+    },
+    "442": {
+      "shape": "shield",
+      "evidence": "Broad upper edge narrows to a pointed lower end.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.442"
+    },
+    "443": {
+      "shape": "circle",
+      "evidence": "Round token with a damaged top opening.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.443"
+    },
+    "444": {
+      "shape": "shield",
+      "evidence": "Rounded upper shoulders taper to a pointed lower tip.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.444"
+    },
+    "445": {
+      "shape": "circle",
+      "evidence": "Circular medal with a smooth rounded outer boundary.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.445"
+    },
+    "446": {
+      "shape": "oval",
+      "evidence": "Wide horizontal elliptical plate.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.446"
+    },
+    "447": {
+      "shape": "oval",
+      "evidence": "Horizontal elliptical engraved plate.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.447"
+    },
+    "448": {
+      "shape": "circle",
+      "evidence": "Circular main disk; the upper ring is excluded.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.448"
+    },
+    "449": {
+      "shape": "circle",
+      "evidence": "Round medal with fine, mostly uniform rim decoration.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.449"
+    },
+    "450": {
+      "shape": "irregular",
+      "evidence": "Round-ended key-like body with a tapered stem and stepped opposite end.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.450"
+    },
+    "452": {
+      "shape": "circle",
+      "evidence": "Round disk; the enlarged hole remains internal.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.452"
+    },
+    "454": {
+      "shape": "circle",
+      "evidence": "Near-round silver medal body.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.454"
+    },
+    "456": {
+      "shape": "circle",
+      "evidence": "Circular medal body; the projecting clip is excluded.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.456"
+    },
+    "458": {
+      "shape": "oval",
+      "evidence": "Oval engraved main plate; its projecting suspension handle and ring are excluded.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.458"
+    },
+    "459": {
+      "shape": "irregular",
+      "evidence": "Four flared arms make a cross-shaped body.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.459"
+    },
+    "460": {
+      "shape": "irregular",
+      "evidence": "Ornate asymmetric scroll-shaped body with lobed ends.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.460"
+    },
+    "461": {
+      "shape": "circle",
+      "evidence": "Round worn metal disk with a continuous curved perimeter.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.461"
+    },
+    "462": {
+      "shape": "circle",
+      "evidence": "Circular disk with an internal side opening.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.462"
+    },
+    "464": {
+      "shape": "irregular",
+      "evidence": "Ornate scroll-shaped plate with an asymmetrical lobed end.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.464"
+    },
+    "465": {
+      "shape": "rectangle",
+      "evidence": "Tall rectangular hotel plate with rounded corners.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.465"
+    },
+    "466": {
+      "shape": "shield",
+      "evidence": "Broad angular shoulders taper to a pointed lower edge.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.466"
+    },
+    "467": {
+      "shape": "rectangle",
+      "evidence": "Wide rectangular plate with rounded corners.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.467"
+    },
+    "468": {
+      "shape": "irregular",
+      "evidence": "Multiple curved bulges and a lobed base create an ornamental outline.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.468"
+    },
+    "469": {
+      "shape": "polygon",
+      "evidence": "Eight straight sides form an octagonal token.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.469"
+    },
+    "470": {
+      "shape": "rectangle",
+      "evidence": "Wide plate with rounded rectangular perimeter.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.470"
+    },
+    "471": {
+      "shape": "polygon",
+      "evidence": "Eight angular sides form a strongly cut-corner octagon.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.471"
+    },
+    "472": {
+      "shape": "rectangle",
+      "evidence": "Four-sided rectangular plate with nearly square corners.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.472"
+    },
+    "473": {
+      "shape": "rectangle",
+      "evidence": "Rectangular plate with a folded top edge and rounded lower corners.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.473"
+    },
+    "476": {
+      "shape": "rectangle",
+      "evidence": "Long rectangular nameplate with rounded ends and straight upper/lower edges.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.476"
+    },
+    "477": {
+      "shape": "polygon",
+      "evidence": "Angular many-sided numbered token.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.477"
+    },
+    "478": {
+      "shape": "oval",
+      "evidence": "Horizontal elliptical engraved plate.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.478"
+    },
+    "479": {
+      "shape": "circle",
+      "evidence": "Circular trade-token body.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.479"
+    },
+    "480": {
+      "shape": "circle",
+      "evidence": "Circular silver medal with a consistently rounded outer edge.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.480"
+    },
+    "483": {
+      "shape": "circle",
+      "evidence": "Round medal with a fine regular serrated rim.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.483"
+    },
+    "484": {
+      "shape": "oval",
+      "evidence": "Vertically oval watch-case-shaped body below a separate bow.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.484"
+    },
+    "485": {
+      "shape": "shield",
+      "evidence": "Broad rounded shoulders taper to a small pointed bottom.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.485"
+    },
+    "486": {
+      "shape": "shield",
+      "evidence": "Angular upper shoulders and indented sides lead to a pointed lower edge.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.486"
+    },
+    "487": {
+      "shape": "rectangle",
+      "evidence": "Featured plaque has straight upper/lower edges and a rounded right end; mounting is omitted in this detail.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.487"
+    },
+    "489": {
+      "shape": "rectangle",
+      "evidence": "Featured plaque is rectangular with modest clipped corners.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.489"
+    },
+    "490": {
+      "shape": "rectangle",
+      "evidence": "Main plaque is rectangular, with a small regular scalloped border.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.490"
+    },
+    "491": {
+      "shape": "rectangle",
+      "evidence": "Wide featured plaque with straight opposing edges.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.491"
+    },
+    "492": {
+      "shape": "rectangle",
+      "evidence": "Featured plaque is broadly rectangular with slightly shaped upper corners.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.492"
+    }
+  }
+}

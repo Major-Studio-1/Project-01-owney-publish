@@ -1,0 +1,474 @@
+{
+  "policy": "Conservative map eligibility: require explicit museum-description evidence of Owney visiting or receiving the tag in one named city. Exclude donor hometowns/workplaces alone, manufacturer or advertising associations, general visits not tied to the dated record, railway services or on-board exchanges without a stop, multiple/unresolved places, and dateCaution conflicts. Keep all67 dated tags in the cube. Dates remain recorded tag dates; map coordinates are editorial city-center geocoding, not Smithsonian-provided coordinates. Ellipses separate short exact excerpts from a single museum description.",
+  "records": {
+    "19": {
+      "status": "unconfirmed",
+      "place": "St. Louis, Missouri",
+      "reason": "St. Louis identifies the donating postmaster. The record does not explicitly state where the coin was handed to Owney.",
+      "evidence": "from St. Louis, Missouri, postmaster J. B. Harlow",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.19"
+    },
+    "34": {
+      "status": "confirmed",
+      "place": "Mankato, Minnesota",
+      "reason": "The museum description explicitly places Owney’s visit or this exchange in the named city. The displayed date remains the recorded tag date, not independently verified visit timing.",
+      "evidence": "J.C. Wise presented Owney with this round brass medal to wear as a tag while the dog was visiting Mankato, Minnesota.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.34"
+    },
+    "53": {
+      "status": "unconfirmed",
+      "place": "Washington, D.C.",
+      "reason": "The donor’s office is identified, but the description gives no exchange city. Washington is an editorial association.",
+      "evidence": "Owney received this token from James E. White’s office.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.53"
+    },
+    "56": {
+      "status": "confirmed",
+      "place": "Lawrence, Massachusetts",
+      "reason": "The museum description explicitly places Owney’s visit or this exchange in the named city. The displayed date remains the recorded tag date, not independently verified visit timing.",
+      "evidence": "While visiting Lawrence, Massachusetts on June 13, 1894, Owney received a very personalized token.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.56"
+    },
+    "60": {
+      "status": "unconfirmed",
+      "place": "Chinook connection",
+      "reason": "The museum explicitly states that the place of receipt cannot be established; Chinook is a donor inscription.",
+      "evidence": "it is impossible to say where Owney actually received this token.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.60"
+    },
+    "65": {
+      "status": "confirmed",
+      "place": "Atlanta, Georgia",
+      "reason": "The museum description explicitly places Owney’s visit or this exchange in the named city. The displayed date remains the recorded tag date, not independently verified visit timing.",
+      "evidence": "Owney received this brass shield-shaped tag on a visit to Atlanta, Georgia.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.65"
+    },
+    "76": {
+      "status": "confirmed",
+      "place": "Brooklyn, New York",
+      "reason": "The museum description explicitly places Owney’s visit or this exchange in the named city. The displayed date remains the recorded tag date, not independently verified visit timing.",
+      "evidence": "Owney received this token while visiting Brooklyn, New York in early April 1894.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.76"
+    },
+    "80": {
+      "status": "confirmed",
+      "place": "Cincinnati, Ohio",
+      "reason": "The museum description explicitly places Owney’s visit or this exchange in the named city. The displayed date remains the recorded tag date, not independently verified visit timing.",
+      "evidence": "Owney received this token while visiting Cincinnati, Ohio on April 11, 1892.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.80"
+    },
+    "84": {
+      "status": "conflicting",
+      "place": "Lancaster, New Hampshire",
+      "reason": "The museum description both assigns a visit date and says the presentation date is unavailable; exclude the conflicting record.",
+      "evidence": "There is no available information to indicate when this tag was presented to Owney.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.84"
+    },
+    "91": {
+      "status": "unconfirmed",
+      "place": "Calgary / Vancouver connection",
+      "reason": "The tag names two Canadian cities and does not establish which location, if either, hosted this exchange.",
+      "evidence": "The token notes two locations, Calgary, Alberta, and Vancouver, British Columbia, Canada.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.91"
+    },
+    "92": {
+      "status": "confirmed",
+      "place": "Detroit, Michigan",
+      "reason": "The museum description explicitly places Owney’s visit or this exchange in the named city. The displayed date remains the recorded tag date, not independently verified visit timing.",
+      "evidence": "This metal shield-shaped tag was given to Owney on his visit to Detroit, Michigan, on November 11, 1893.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.92"
+    },
+    "93": {
+      "status": "unconfirmed",
+      "place": "Washington, D.C.",
+      "reason": "Washington locates the repair shop and its staff. A suggested necessary stop is not explicit evidence that this dated presentation occurred there.",
+      "evidence": "this shop would have been a necessary stop.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.93"
+    },
+    "99": {
+      "status": "unconfirmed",
+      "place": "Washington, D.C.",
+      "reason": "The donor’s Third Division office is named without an exchange city in the description.",
+      "evidence": "Third Division Superintendent of the Railway Mail Service",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.99"
+    },
+    "103": {
+      "status": "unconfirmed",
+      "place": "Cincinnati, Ohio",
+      "reason": "The record marks travel on a railway branch and the donors’ Cincinnati connection, not a confirmed city exchange.",
+      "evidence": "This tag marks Owney’s travels on a branch line of the Cincinnati, Hamilton and Dayton railway.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.103"
+    },
+    "104": {
+      "status": "unconfirmed",
+      "place": "Tacoma / Puyallup, Washington",
+      "reason": "The record combines Tacoma departure and Puyallup donors. The tag date precedes departure; its exchange location is not established.",
+      "evidence": "Charles Hood of nearby Puyallup, Washington.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.104"
+    },
+    "106": {
+      "status": "confirmed",
+      "place": "Nashville, Tennessee",
+      "reason": "The museum description explicitly places Owney’s visit or this exchange in the named city. The displayed date remains the recorded tag date, not independently verified visit timing.",
+      "evidence": "Owney received this shield-shaped metal tag on April 9, 1892, while visiting Nashville, Tennessee.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.106"
+    },
+    "107": {
+      "status": "confirmed",
+      "place": "Fort Wayne, Indiana",
+      "reason": "The museum description explicitly places Owney’s visit or this exchange in the named city. The displayed date remains the recorded tag date, not independently verified visit timing.",
+      "evidence": "The decorative spoon bowl was given to Owney in Ft. Wayne, Indiana.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.107"
+    },
+    "109": {
+      "status": "confirmed",
+      "place": "Jackson, Mississippi",
+      "reason": "The museum description explicitly places Owney’s visit or this exchange in the named city. The displayed date remains the recorded tag date, not independently verified visit timing.",
+      "evidence": "Owney received this tag during a trip to Jackson, Mississippi.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.109"
+    },
+    "110": {
+      "status": "unconfirmed",
+      "place": "Baltimore–Grafton railway",
+      "reason": "Baltimore–Grafton identifies a Railway Post Office service, not a confirmed stop or place of exchange.",
+      "evidence": "the Baltimore and Grafton Railway Post Office (RPO) car.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.110"
+    },
+    "116": {
+      "status": "confirmed",
+      "place": "Baltimore, Maryland",
+      "reason": "The museum description explicitly places Owney’s visit or this exchange in the named city. The displayed date remains the recorded tag date, not independently verified visit timing.",
+      "evidence": "Owney received this specially designed token from National Association of Post Office Clerks during their third national convention in Baltimore, Maryland.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.116"
+    },
+    "117": {
+      "status": "confirmed",
+      "place": "Charlestown, Massachusetts",
+      "reason": "The museum description explicitly places Owney’s visit or this exchange in the named city. The displayed date remains the recorded tag date, not independently verified visit timing.",
+      "evidence": "Owney received this tag from a visit to Charlestown, Massachusetts.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.117"
+    },
+    "120": {
+      "status": "unconfirmed",
+      "place": "Buffalo, New York",
+      "reason": "Buffalo locates the postal workers and the record mentions a May trip, but it does not explicitly locate this presentation in Buffalo.",
+      "evidence": "Postal workers at the Buffalo, New York, post office presented this round brass tag",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.120"
+    },
+    "121": {
+      "status": "unconfirmed",
+      "place": "Boston–New York night mail",
+      "reason": "The token was given aboard a multi-city mail train; no particular stop is identified.",
+      "evidence": "the Boston, Providence, and New York City night mail train",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.121"
+    },
+    "122": {
+      "status": "confirmed",
+      "place": "Winona, Minnesota",
+      "reason": "The museum description explicitly places Owney’s visit or this exchange in the named city. The displayed date remains the recorded tag date, not independently verified visit timing.",
+      "evidence": "This brass, triangular-shaped key was presented to Owney at Winona, Minnesota.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.122"
+    },
+    "124": {
+      "status": "unconfirmed",
+      "place": "Haverhill, Massachusetts",
+      "reason": "Haverhill is the donor’s town; the poem’s promotional “city of shoes” wording does not explicitly place the exchange in Haverhill.",
+      "evidence": "Owney received this tag from a creative person in Haverhill, Massachusetts.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.124"
+    },
+    "144": {
+      "status": "confirmed",
+      "place": "Portland, Maine",
+      "reason": "The museum description explicitly places Owney’s visit or this exchange in the named city. The displayed date remains the recorded tag date, not independently verified visit timing.",
+      "evidence": "photographers at the Portland, Maine, railway station … The tag indicates that Owney visited the station and studio on April 14, 1896.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.144"
+    },
+    "145": {
+      "status": "confirmed",
+      "place": "Seattle, Washington",
+      "reason": "The museum description explicitly places Owney’s visit or this exchange in the named city. The displayed date remains the recorded tag date, not independently verified visit timing.",
+      "evidence": "Owney received this hand engraved tag during a visit to Seattle, Washington, on July 17, 1895.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.145"
+    },
+    "148": {
+      "status": "confirmed",
+      "place": "Boston, Massachusetts",
+      "reason": "The museum description explicitly places Owney’s visit or this exchange in the named city. The displayed date remains the recorded tag date, not independently verified visit timing.",
+      "evidence": "While in Boston, Massachusetts, Owney often spent time visiting not only the general city post office, but also the Railway Mail Service offices.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.148"
+    },
+    "150": {
+      "status": "unconfirmed",
+      "place": "Washington, D.C.",
+      "reason": "Washington locates the donating post office and engraver; the description does not explicitly place the exchange there.",
+      "evidence": "Owney received this tag from the Washington, DC city post office on April 13, 1892.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.150"
+    },
+    "151": {
+      "status": "unconfirmed",
+      "place": "Aberdeen–Sioux City railway",
+      "reason": "The donor’s railway and the engraver’s workplace do not establish the place of exchange.",
+      "evidence": "a Railway clerk who worked on the Aberdeen and Sioux City Railway line.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.151"
+    },
+    "153": {
+      "status": "conflicting",
+      "place": "San Francisco, California",
+      "reason": "Date/location conflicts with the Cheyenne record for the same day; omit a map marker rather than resolve the contradiction.",
+      "evidence": "while visiting San Francisco, California on April 12, 1893.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.153"
+    },
+    "164": {
+      "status": "unconfirmed",
+      "place": "Burlington–St. Louis railway",
+      "reason": "The exchange occurred along the Burlington–St. Louis railway segment; no precise stop is identified.",
+      "evidence": "the Burlington and St. Louis portion of the Chicago, Burlington & Quincy Railroad",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.164"
+    },
+    "183": {
+      "status": "confirmed",
+      "place": "Pontiac, Illinois",
+      "reason": "The museum description explicitly places Owney’s visit or this exchange in the named city. The displayed date remains the recorded tag date, not independently verified visit timing.",
+      "evidence": "This round copper tag was presented to Owney on June 24, 1895, in Pontiac, Illinois.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.183"
+    },
+    "190": {
+      "status": "unconfirmed",
+      "place": "Winnipeg, Manitoba",
+      "reason": "The tag commemorates a Canadian trip in Winnipeg but receipt is stated only aboard a Canadian RPO car, not explicitly in Winnipeg.",
+      "evidence": "Owney rode on a Canadian railway post office car and received this tag on June 27, 1895.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.190"
+    },
+    "196": {
+      "status": "unconfirmed",
+      "place": "Scotland, South Dakota",
+      "reason": "Scotland identifies Parmenter’s business and an inscription, not the explicitly established place where he presented the tag.",
+      "evidence": "A. E. Parmenter of Dakota Valley Mills in Scotland, South Dakota.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.196"
+    },
+    "199": {
+      "status": "unconfirmed",
+      "place": "Worcester–Norwich railway",
+      "reason": "The exchange occurred aboard the Worcester–Norwich RPO service; no precise stop is identified.",
+      "evidence": "while riding a Worcester and Norwich RPO train car",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.199"
+    },
+    "202": {
+      "status": "confirmed",
+      "place": "Lancaster, New Hampshire",
+      "reason": "The museum description explicitly places Owney’s visit or this exchange in the named city. The displayed date remains the recorded tag date, not independently verified visit timing.",
+      "evidence": "This tag was given to Owney in Lancaster, New Hampshire, on June 20, 1894.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.202"
+    },
+    "203": {
+      "status": "confirmed",
+      "place": "Tilton, New Hampshire",
+      "reason": "The museum description explicitly places Owney’s visit or this exchange in the named city. The displayed date remains the recorded tag date, not independently verified visit timing.",
+      "evidence": "when the dog visited the small town of Tilton, New Hampshire, on May 2, 1896.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.203"
+    },
+    "205": {
+      "status": "unconfirmed",
+      "place": "Hinton, West Virginia",
+      "reason": "The record gives a dated inscription and Hinton railway context but does not explicitly state Owney visited or received the tag there.",
+      "evidence": "Handmade scratches in the tag indicate that it was presented to Owney on September 13, 1894.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.205"
+    },
+    "207": {
+      "status": "unconfirmed",
+      "place": "Boston, Massachusetts",
+      "reason": "The token offers lunch at a Boston establishment; this does not explicitly establish a visit or the place where it was given.",
+      "evidence": "a token for a 25 cent lunch at Woodbury’s in Boston, Massachusetts",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.207"
+    },
+    "210": {
+      "status": "unconfirmed",
+      "place": "Chicago, Illinois",
+      "reason": "Chicago and the exposition identify the commemorative object. The donors’ identities and connection to Owney are unknown.",
+      "evidence": "There is no further information on these individuals or their connection to Owney.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.210"
+    },
+    "211": {
+      "status": "unconfirmed",
+      "place": "Nashville, Tennessee",
+      "reason": "Nashville is the clerks’ workplace. The description does not explicitly place this dated exchange in the city.",
+      "evidence": "clerks working out of the Nashville, Tennessee, post office",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.211"
+    },
+    "216": {
+      "status": "unconfirmed",
+      "place": "Corry, Pennsylvania",
+      "reason": "Corry is the postal donors’ town. The description does not explicitly place this dated exchange there.",
+      "evidence": "Owney received this token from the postal employees of Corry, Pennsylvania",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.216"
+    },
+    "219": {
+      "status": "unconfirmed",
+      "place": "Toledo, Ohio",
+      "reason": "The Toledo exchange’s promotional invitation does not explicitly confirm Owney’s presence or the exchange location.",
+      "evidence": "it would make Owney “our guest” on March 26, 1894.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.219"
+    },
+    "229": {
+      "status": "confirmed",
+      "place": "Fort Wayne, Indiana",
+      "reason": "The museum description explicitly places Owney’s visit or this exchange in the named city. The displayed date remains the recorded tag date, not independently verified visit timing.",
+      "evidence": "Owney “stopped with Dick” in Ft. Wayne on March 27, 1894.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.229"
+    },
+    "230": {
+      "status": "unconfirmed",
+      "place": "New Richmond, Ohio",
+      "reason": "New Richmond is the donor’s self-identified hometown, not an explicitly established visit or exchange location.",
+      "evidence": "an individual identifying himself as “L. March” of New Richmond, Ohio.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.230"
+    },
+    "239": {
+      "status": "unconfirmed",
+      "place": "Charleston, West Virginia",
+      "reason": "Charleston identifies Fred White’s workplace. The description does not establish the place of exchange.",
+      "evidence": "a post office clerk in the Charleston, West Virginia post office.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.239"
+    },
+    "243": {
+      "status": "confirmed",
+      "place": "Cincinnati, Ohio",
+      "reason": "The museum description explicitly places Owney’s visit or this exchange in the named city. The displayed date remains the recorded tag date, not independently verified visit timing.",
+      "evidence": "during a visit to Cincinnati, Ohio.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.243"
+    },
+    "337": {
+      "status": "confirmed",
+      "place": "San Francisco, California",
+      "reason": "The museum description explicitly places Owney’s visit or this exchange in the named city. The displayed date remains the recorded tag date, not independently verified visit timing.",
+      "evidence": "Owney received this specially-engraved medal during his 1893 appearance at San Francisco’s Pacific Kennel Club dog show.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.337"
+    },
+    "368": {
+      "status": "unconfirmed",
+      "place": "Laconia, New Hampshire",
+      "reason": "Laconia identifies O’Laughlin’s employment, not the place he presented the tag to Owney.",
+      "evidence": "O’Laughlin was a clerk at the Laconia, New Hampshire post office.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.368"
+    },
+    "369": {
+      "status": "unconfirmed",
+      "place": "Cincinnati, Ohio",
+      "reason": "The Cincinnati newspaper and manufacturer are donor/object associations; general repeated visits do not establish this dated exchange location.",
+      "evidence": "a Cincinnati, Ohio daily newspaper, The Commercial Gazette",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.369"
+    },
+    "374": {
+      "status": "unconfirmed",
+      "place": "Denver, Colorado",
+      "reason": "Denver locates the donating clerks. General references to Owney’s visits do not establish this particular exchange location.",
+      "evidence": "Owney received this token from the clerks in the Denver, Colorado post office",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.374"
+    },
+    "376": {
+      "status": "unconfirmed",
+      "place": "Philadelphia, Pennsylvania",
+      "reason": "Philadelphia locates the donor’s office. Possible routes into the city do not confirm this dated exchange happened there.",
+      "evidence": "the Chief Clerk of the Railway Mail Service office in Philadelphia, Pennsylvania",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.376"
+    },
+    "406": {
+      "status": "confirmed",
+      "place": "Athens, Ohio",
+      "reason": "The museum description explicitly places Owney’s visit or this exchange in the named city. The displayed date remains the recorded tag date, not independently verified visit timing.",
+      "evidence": "Owney received this token while visiting Athens, Ohio on September 17, 1894.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.406"
+    },
+    "425": {
+      "status": "unconfirmed",
+      "place": "Kansas City, Missouri",
+      "reason": "Kansas City locates Bruner’s business, not the place he handed Owney the token.",
+      "evidence": "Henry J. Bruner, a German immigrant who opened a hardware company in Kansas City, Missouri.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.425"
+    },
+    "451": {
+      "status": "unconfirmed",
+      "place": "Plymouth, New Hampshire",
+      "reason": "Plymouth identifies Hull’s postmaster role; the description does not explicitly place this exchange in the town.",
+      "evidence": "who served as the postmaster of Plymouth, New Hampshire from 1895-1899.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.451"
+    },
+    "453": {
+      "status": "unconfirmed",
+      "place": "Kansas City, Missouri",
+      "reason": "Kansas City identifies the postal donors and manufacturer; repeated trips through the area do not explicitly locate this exchange.",
+      "evidence": "Owney received this token from postal clerks in Kansas City, Missouri.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.453"
+    },
+    "455": {
+      "status": "unconfirmed",
+      "place": "Taunton, Massachusetts",
+      "reason": "Taunton identifies the donating post office. Its railway context does not prove the place of presentation.",
+      "evidence": "Owney received this tag from members of the Taunton, Massachusetts post office.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.455"
+    },
+    "457": {
+      "status": "conflicting",
+      "place": "Cheyenne, Wyoming",
+      "reason": "Date/location conflicts with the San Francisco record for the same day; omit a map marker rather than resolve the contradiction.",
+      "evidence": "the Cheyenne, Wyoming post office on April 12, 1893.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.457"
+    },
+    "463": {
+      "status": "unconfirmed",
+      "place": "Portland, Oregon",
+      "reason": "Portland is the clerks’ home office, but the exchange was on a southbound railway car; its location is not established.",
+      "evidence": "working out of Portland, Oregon on a “South Bound” railway mail car.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.463"
+    },
+    "474": {
+      "status": "unconfirmed",
+      "place": "San Antonio, Texas",
+      "reason": "San Antonio visits are stated only by year; the dated token from local workers does not establish the place of this particular exchange.",
+      "evidence": "Owney is known to have visited San Antonio at least twice, in 1892 and in 1895.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.474"
+    },
+    "475": {
+      "status": "unconfirmed",
+      "place": "Rock Island, Illinois",
+      "reason": "Rock Island identifies the gunsmith’s business; possible railway approaches do not establish the exchange location.",
+      "evidence": "John Koch, a Rock Island, Illinois gunsmith.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.475"
+    },
+    "481": {
+      "status": "conflicting",
+      "place": "Pierre, South Dakota",
+      "reason": "Its date conflicts with the Lawrence record for the same day; Pierre is also only the postal donors’ location.",
+      "evidence": "the employees of the Pierre, South Dakota post office.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.481"
+    },
+    "482": {
+      "status": "conflicting",
+      "place": "Lawrence, Massachusetts",
+      "reason": "Its date conflicts with the Pierre record for the same day; Lawrence is also only the donor’s store location.",
+      "evidence": "a pharmacist who partnered with H.M. Witney in Lawrence, Massachusetts.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.482"
+    },
+    "488": {
+      "status": "confirmed",
+      "place": "Milwaukee, Wisconsin",
+      "reason": "The museum description explicitly places Owney’s visit or this exchange in the named city. The displayed date remains the recorded tag date, not independently verified visit timing.",
+      "evidence": "He received it while in Milwaukee, Wisconsin, on February 27, 1896.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.488"
+    },
+    "96.7": {
+      "status": "unconfirmed",
+      "place": "El Paso, Texas",
+      "reason": "The record identifies Bovee’s workplace in El Paso, not where he gave Owney the tag.",
+      "evidence": "Bovee was a letter carrier in El Paso, Texas.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.96.7"
+    },
+    "96.11": {
+      "status": "unconfirmed",
+      "place": "Location not recorded",
+      "reason": "The museum explicitly says the presentation location is not known.",
+      "evidence": "There is no additional information to indicate where this tag was given to the dog.",
+      "source": "https://postalmuseum.si.edu/object/npm_0.052985.96.11"
+    }
+  }
+}

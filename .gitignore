@@ -1,0 +1,15 @@
+node_modules/
+.wrangler/
+.dev.vars
+.env
+.sites-runtime/
+dist/
+
+# Local-only files and export bundles
+.env.*
+!.env.example
+*.log
+*.zip
+*.tar.gz
+.DS_Store
+Thumbs.db

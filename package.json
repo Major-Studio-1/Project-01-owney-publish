@@ -1,0 +1,5 @@
+{
+  "name": "owney-a-life-in-tags", "private": true, "type": "module", "packageManager": "pnpm@11.19.0",
+  "scripts": {"build":"node scripts/build.mjs","dev":"node serve.cjs","db:generate":"node scripts/generate-migration.mjs","test":"node --test tests/community.test.mjs"},
+  "devDependencies": {"drizzle-kit":"0.31.10","drizzle-orm":"0.45.2","esbuild":"0.25.12","wrangler":"4.92.0"}
+}

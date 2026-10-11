@@ -1,0 +1,45 @@
+/* The painting is atmosphere behind the evidence, with no small duplicate image. */
+.scene-panel{isolation:isolate;padding:24px;border:1px solid var(--line);background:#13202d;overflow:hidden}
+.scene-panel::after{display:none}
+.scene-atmosphere{position:absolute;inset:0;z-index:-2;overflow:hidden;pointer-events:none}
+.scene-atmosphere img{width:100%;height:100%;object-fit:cover;opacity:.30;filter:saturate(.65)}
+.scene-atmosphere::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,#0d18244d,#0d1824e0 55%,#0d1824f5)}
+.scene-atmosphere.st-louis-crop img{aspect-ratio:1;position:absolute;top:0;left:0;width:100%;height:auto;object-fit:cover}
+.scene-atmosphere.st-louis-crop{aspect-ratio:1;bottom:auto}
+.scene-atmosphere.st-louis-crop img{height:100%;object-position:25% center}
+.scene-art-note{font-size:11px!important;line-height:1.5!important;letter-spacing:.025em;color:#b8c4cc;margin:0 0 20px!important}
+.scene-copy h3{font-size:clamp(28px,2.3vw,36px);max-width:15ch}.scene-copy>p:not(.scene-place):not(.scene-art-note){font-size:16px;line-height:1.65}.scene-place{padding-top:0}.scene-actions .badge-snippet{background:#0d1824b8}.scene-panel:has(.evidence[open]){overflow-y:auto}
+#community{padding-top:64px;padding-bottom:72px}.community-layout{display:grid;grid-template-columns:minmax(260px,.8fr) minmax(0,1.35fr);gap:8%}.community-invitation{max-width:440px}.community-intro{font:20px/1.6 Georgia,serif;color:#dedcd1;margin:0 0 28px}.community-note,.community-footnote{color:#aebac5;font-size:12px;line-height:1.7}.community-footnote{margin-top:24px;max-width:60ch}.community-heading{display:flex;justify-content:space-between;align-items:center;gap:20px}.community-heading h3{font:27px/1.2 Georgia,serif;margin:0}.community-collection>.community-note{font-size:11px;letter-spacing:.08em;margin:12px 0 26px}
+#tag-form label{display:block;font-size:14px;margin:20px 0 10px;color:#e4e6e4}#tag-form input,#tag-form textarea{display:block;width:100%;background:#142230;border:1px solid #4a5a67;padding:13px 14px;color:#f0eee6;font:16px/1.5 inherit;border-radius:0;font-family:inherit;font-size:16px;line-height:1.5}#tag-form textarea{resize:vertical;min-height:120px}#tag-form input::placeholder,#tag-form textarea::placeholder{color:#8f9da8}#tag-form :focus-visible{outline:2px solid var(--gold);outline-offset:4px}.tag-count{display:block;text-align:right;color:#aebac5;font-size:12px;margin-top:7px}#tag-form .intro-start{margin-top:15px}#tag-form .form-trap{position:absolute;left:-10000px;width:1px;height:1px;overflow:hidden}.tag-status{font-size:14px;line-height:1.6;color:#e5c783;min-height:24px}.tag-status[data-error="true"]{color:#f2b7a4}
+.visitor-tags{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}.visitor-tag{position:relative;border-top:2px solid #c0a26a;background:#1a2937;padding:22px;overflow-wrap:anywhere}.visitor-tag:nth-child(3n+2){border-color:#7fa29e;background:#172a32}.visitor-tag:nth-child(3n+3){border-color:#9ca9be;background:#1d293a}.visitor-tag h4{color:#dec18b;font:21px/1.25 Georgia,serif;margin:0 0 16px}.visitor-tag p{font-size:16px;line-height:1.7;margin:0 0 26px;white-space:pre-wrap}.visitor-tag time{font-size:11px;letter-spacing:.04em;color:#aebac5}.visitor-tag.fresh{outline:1px solid #d4b878;outline-offset:4px}.tags-empty{border-block:1px solid var(--line);padding:55px 20px;font:25px/1.5 Georgia,serif;color:#e4dcc8}.tags-empty span{font:14px/1.6 Arial,sans-serif;color:#aebac5}#more-tags{margin-top:24px}#community-offline .intro-start{display:inline-flex}button:disabled{cursor:default;opacity:.5}
+@media(min-width:981px){.masthead .era{display:none}.masthead nav{margin-left:auto}}
+@media(max-width:979px){.scene-panel{padding:24px;position:relative;max-height:none}.scene-copy h3{max-width:none}.community-layout{gap:40px;grid-template-columns:1fr 1fr}.visitor-tags{grid-template-columns:1fr}}
+@media(max-width:600px){.masthead nav{gap:8px;justify-content:space-between}.masthead .nav{font-size:12px;padding:10px 0}.community-layout{grid-template-columns:1fr}.community-invitation{max-width:none}.community-collection{margin-top:12px}#community .section-head h2{font-size:36px}.community-heading h3{font-size:25px}.visitor-tags{grid-template-columns:1fr}.scene-panel{padding:22px}.scene-art-note{font-size:11px!important}}
+@media(prefers-reduced-motion:no-preference){.visitor-tag.fresh{animation:tag-arrive .5s ease-out}@keyframes tag-arrive{from{opacity:.3;transform:translateY(8px)}to{opacity:1;transform:none}}}
+.share-tag{display:block;margin-top:18px;font-size:13px}.share-dialog{width:min(880px,94vw);max-width:880px;background:#111e2c;padding:34px}.share-layout{display:grid;grid-template-columns:1fr 1fr;gap:34px;align-items:center}.share-preview{min-width:0;min-height:120px}.share-preview img{width:100%;height:auto;display:block;box-shadow:0 12px 36px #0004}.share-dialog h2{font:38px/1.1 Georgia,serif;margin:14px 0}.share-dialog p{line-height:1.65}.share-actions{display:grid;gap:12px;margin-top:24px}.share-actions .intro-start{justify-content:center;font-size:16px}.share-actions .quiet-button{padding:13px}.share-actions .text-link{margin-top:8px}.share-dialog .tag-status{white-space:pre-wrap;overflow-wrap:anywhere}
+@media(max-width:600px){.share-dialog{padding:25px;max-height:90svh}.share-layout{grid-template-columns:1fr;gap:24px}.share-preview{max-width:250px;margin:auto}.share-dialog h2{font-size:30px}.share-dialog .eyebrow{margin-top:0}}
+/* Give Owney's face its own space, with the opening story to the right. */
+.intro-copy{margin-left:auto;width:46%;max-width:600px;padding-right:0}
+.intro h1{font-size:clamp(62px,6.7vw,96px)}
+.intro-portrait img{left:calc(50% - 980px);right:auto;width:1100px;top:-35px;transform:scaleX(-1);mask-image:linear-gradient(180deg,transparent 0%,#000 8%,#000 83%,transparent 100%),linear-gradient(90deg,transparent 0%,#000 10%,#000 92%,transparent 100%);mask-composite:intersect}
+.intro::before{background:linear-gradient(90deg,transparent 0%,#0d18240a 35%,#0d1824bd 67%,#0d1824 100%),linear-gradient(180deg,#0d182420 0%,transparent 60%,#0d1824 100%)}
+.intro-portrait figcaption{left:5%;right:auto;text-align:left}
+@media(min-width:601px) and (max-width:979px){.intro{min-height:1050px}.intro-copy{width:48%}.intro h1{font-size:58px}.intro-description{font-size:17px}.intro-portrait img{width:900px;left:-390px;right:auto;top:35px}.intro::before{background:linear-gradient(90deg,transparent 0%,#0d182442 30%,#0d1824db 63%,#0d1824 100%)}}
+@media(max-width:600px){.intro{padding-top:48px;min-height:1320px}.intro-copy{width:100%;max-width:350px;margin-left:0}.intro h1{font-size:56px}.intro-description{max-width:335px;font-size:16px;margin:24px 0}.intro-portrait img{width:630px;left:-200px;right:auto;top:410px;opacity:.95}.intro::before{background:linear-gradient(180deg,#0d1824 0%,#0d1824 35%,#0d182400 49%,#0d182400 82%,#0d1824 100%)}.intro-portrait figcaption{left:5vw;right:5vw;bottom:25px}.intro .eyebrow{max-width:300px}.intro-scroll{margin-bottom:0}}
+.masthead,.masthead-space{overflow-anchor:none}
+.masthead.compact{min-height:52px;padding:4px 4vw;gap:20px;flex-wrap:nowrap;box-shadow:0 5px 18px #0002}
+.masthead.compact .brand{font-size:17px;gap:9px;flex-shrink:0}
+.masthead.compact .brand-mark{width:29px;height:33px;font-size:22px;border-radius:16px 16px 11px 11px}
+.masthead.compact .brand small,.masthead.compact .era{display:none}
+.masthead.compact nav{width:auto;order:initial;margin-left:auto;gap:6px}
+.masthead.compact .nav{min-height:42px;padding:8px 12px;font-size:13px;white-space:nowrap}
+.masthead .nav:focus-visible{outline:2px solid var(--gold);outline-offset:1px}
+@media(min-width:980px) and (max-height:850px){
+  #cube{padding-top:20px}
+  #cube .section-head{margin-bottom:16px}
+  .cube-controls{padding-top:8px}
+  #cube-stage{height:clamp(260px,calc(100svh - var(--nav-height) - 405px),430px)}
+  .cube-spacing-note{margin:6px 0 8px}
+  .bookmark-caption{margin-top:6px}
+}
+@media(max-width:979px){.masthead.compact{gap:0;padding:0 5vw;min-height:46px}.masthead.compact .brand{display:none}.masthead.compact nav{width:100%;margin:0;justify-content:space-between;gap:8px}.masthead.compact .nav{min-height:46px;padding:8px 0;font-size:12px}}
