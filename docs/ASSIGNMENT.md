@@ -10,10 +10,10 @@ Design rationale: [DESIGN.md](DESIGN.md)
 
 Detailed data and running instructions: [PROJECT-GUIDE.md](PROJECT-GUIDE.md)
 
-## Remaining capture requirement
+## Prototype screenshots
 
-New native 1920 × 1080 screenshots remain pending. The existing saved review screenshots have different dimensions and must not be described as meeting that requirement. Windows Computer Use stopped capture because it could not establish the current browser URL with sufficient confidence. No browser safety check was bypassed.
+Three browser screenshots of the published prototype are saved in [images/](../images/README.md) and embedded in the root README: introduction, Journey in Cube view, and the collection. Each saved file was verified to be exactly 1920 × 1080 pixels (16:9), fulfilling the screenshot requirement.
 
-Recommended final views: introduction, Journey in Cube view, Journey in Timeline view, and filtered collection. Capture two to five views in total, save them under images/, and update the README image links after checking their dimensions.
+The repository includes the refined prototype, the live website link, short project paragraphs, design justifications, and data/process documentation.
 
 Canvas submission remains a separate student action unless explicitly requested and access is provided. No Canvas submission has been made by preparing this repository.

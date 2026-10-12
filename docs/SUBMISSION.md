@@ -4,7 +4,7 @@ Prepared on 10 October 2026 from the published Owney source commit `3e5797e8037c
 
 This is a separate assignment copy. The live project and its original repository are unchanged. Only tracked project files were copied, with the superseded animation renderer and its unused art omitted. The included process PDF/Word documents and screenshots were copied from the project outputs.
 
-The original project history remains in the working project; this folder does not fabricate a development history. Its first GitHub commit should describe it as an assignment export of the completed project.
+The original project history remains in the working project; this folder does not fabricate a development history. Its first GitHub commit describes it as an assignment export of the completed project. Three new browser screenshots of the live prototype were subsequently added under `images/`, each verified at 1920 × 1080 pixels and embedded in the root README.
 
 The README was rewritten for a reviewer, and an existing detailed README is preserved as `docs/implementation-notes.md`. That file contains historical implementation notes; use the root README and current source for the final behavior.
 

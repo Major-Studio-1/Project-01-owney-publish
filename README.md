@@ -14,11 +14,13 @@ The concept, visual direction, and iterative design requests were developed by H
 
 ## Prototype screenshots
 
-These saved review captures show the introduction and the linked collection. The assignment's new 1920 × 1080 captures are still pending; the current image sizes are recorded in [images/README.md](images/README.md).
+Three screenshots of the live prototype are included at 1920 × 1080 pixels (16:9). [Capture details](images/README.md).
 
-![Meet Owney: a portrait and short introduction](images/01-introduction-review.png)
+![Meet Owney: a portrait and short introduction](images/01-introduction.jpg)
 
-![The collection following Journey filters, with the selected Mankato tag highlighted](images/02-linked-collection-review.png)
+![Journey in Cube view: transparent museum tags, linked map, and selected El Paso tag](images/03-cube-view.jpg)
+
+![The collection: original tag cutouts with theme, place, material, date, and shape filters](images/02-collection.jpg)
 
 ## Sources and project documentation
 
