@@ -1,6 +1,6 @@
 # Owney — A Life in Tags
 
-**[Explore the live prototype](https://owney-through-time.hihaolong.chatgpt.site/?release=linked-collection-1#intro)** · [Design rationale](docs/DESIGN.md) · [Data collection process](docs/process/Owney_data_collection_process.pdf)
+**[Explore the live prototype](https://owney-through-time.hihaolong.chatgpt.site/#intro)** · [Design rationale](docs/DESIGN.md) · [Data collection process](docs/process/Owney_data_collection_process.pdf)
 
 Owney was a small dog who traveled with the mail in the late nineteenth century. Postal workers and admirers gave him tags as reminders of their encounters. This project explores how those small objects can tell a larger story about movement, friendship, and the traces a life leaves behind.
 
@@ -11,6 +11,8 @@ The time cube treats each tag as an object in a chronological collection. Switch
 The visual design combines dark blue, warm gold, large serif narrative headings, and quieter sans-serif controls. Transparent museum photographs give the tags room to stand out. Generated atmosphere images sit behind the evidence, and two painted running sequences imagine Owney as a living dog. After feedback, the map and cube were combined, controls became more compact, duplicated displays were removed, and the collection was linked to the Journey. [The design notes explain these choices and their limitations.](docs/DESIGN.md)
 
 The concept, visual direction, and iterative design requests were developed by Haolong. Codex assisted with implementation, data preparation, documentation, and testing. OpenAI image generation produced the atmosphere illustrations and running-dog drawings; these are interpretations, not historical photographs or footage. Museum object images in this snapshot are CC0, and transparent cutouts preserve the original object pixels. Visitors' contemporary messages form a separate collection from the historical museum objects.
+
+The running scenes prepare their artwork before motion begins and stop rendering when offscreen. The optional soundtrack, [Broken Vow on YouTube](https://www.youtube.com/watch?v=CCSdRKSQXnE), uses the official embedded player at a low initial volume. Browsers that block autoplay show a Play music control. No music file is included in this repository.
 
 ## Prototype screenshots
 

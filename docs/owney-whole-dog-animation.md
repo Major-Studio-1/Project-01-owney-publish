@@ -15,6 +15,18 @@ The two countryside interludes appear after Meet Owney and after The collection 
 
 ## Playback
 
-The player draws one complete image at a time and only repaints when its frame changes. It decodes the full sheet before revealing Owney, preserves the current frame when paused, stops offscreen or in a hidden tab, and respects reduced-motion settings until the viewer chooses Play. Country scenery keeps its existing parallax. The old articulated renderer is no longer loaded.
+The player draws one complete image at a time and only repaints when its frame changes. It decodes the full sheet before revealing Owney, preserves the current frame while stopped, stops offscreen or in a hidden tab, and respects reduced-motion settings. Country scenery uses continuous parallax independently of the held dog drawings. The old articulated renderer is no longer loaded.
 
-This is an illustrated, AI-generated interpretation of running, not measured motion capture. Pose-sheet inspection confirms complete connected drawings and clear near-side limbs. The build and lifecycle checks passed. Browser playback could not be visually verified in this environment because the local browser connection timed out; this limitation should not be described as a successful browser animation review.
+This is an illustrated, AI-generated interpretation of running, not measured motion capture. Pose-sheet inspection confirms complete connected drawings and clear near-side limbs.
+
+## 13 October 2026: continuous scenery and automatic playback
+
+The countryside now decodes its source image before playback and prepares seven canvas textures once per scene size. Middle and foreground textures contain only their visible bands; fades and light foreground blur are baked during preparation. Their three-tile, mirrored loops move with continuous CSS transforms. The distant horizon drifts slowly over an oversized single texture. The prepared texture area is about 2.52 viewport areas before resolution caps, versus twelve full-screen image tiles previously.
+
+Dog and scenery preparation must both finish before two warm-up animation frames allow motion to start. Duplicate preparation requests are coalesced. A scene starts at 40% visibility and stops below 15%, avoiding repeated starts around one scroll threshold. Hidden tabs and offscreen scenes stop; reduced-motion preferences keep the illustration still. The animation Pause/Play button is removed from both interludes at the user's request. The whole-dog drawings and their 880 ms sequence are unchanged.
+
+Tests cover decoding/warm-up, late loading, hidden tabs, visibility hysteresis, reduced motion, shared scenery loading, unchanged-size rendering, and bounded canvas dimensions. These validate behavior and rendering workload; they do not establish a measured frame rate on the viewer's laptop.
+
+## Music
+
+The user-selected track is [Broken Vow on YouTube](https://www.youtube.com/watch?v=CCSdRKSQXnE). The official IFrame player tries to start after page load at 12% volume. If the browser blocks autoplay, a Play music control remains available. The visible player includes volume, mute, and Stop and close controls. Closing it pauses playback and remembers that choice for the current browser session. Playback also stops when the page becomes hidden. No audio is downloaded or extracted. YouTube availability, advertising, and autoplay restrictions remain outside the site's control.
