@@ -28,3 +28,8 @@ The export contains about 75.1 MiB in 906 files before ignored build output; its
 Synced the animation and music implementation from Site source commit `bed7f3a097ae14a1b578e42e9c61de1f0d1a77b9`. Scenery textures now prepare and warm before playback, with cropped pre-rendered layers reducing work during movement. The animation Pause/Play buttons were removed; the scenes still respect reduced-motion preferences and pause offscreen. The official YouTube player adds the requested soundtrack at 12% initial volume, with a Play music fallback when autoplay is blocked and separate music controls. The existing whole-dog drawings are unchanged.
 
 The production build and twelve tests pass, including preparation timing, visibility transitions, canvas sizing, autoplay fallback, music controls, and the existing catalog/community checks. The three submission screenshots remain the genuine 1920 × 1080 captures of the earlier `linked-collection-1` release; their capture details are preserved in `images/README.md`.
+
+
+## Compact soundtrack control — 15 October 2026
+
+Synced from Site source commit `791904a9951ae8d2131da22899a58fe338dc0559`. The soundtrack now loads only on request, with a subtle icon visible from the introduction and a 200 × 200 YouTube player plus a small link-and-close footer. Initial volume remains 12%. Close/Escape and page hiding pause playback; a late-loading player cannot restart after dismissal. The owner canceled the proposed MP3 replacement, and no audio file was included. All 15 music, animation, catalog, and community tests passed, and the production build succeeded.

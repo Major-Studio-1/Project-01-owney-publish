@@ -29,4 +29,4 @@ Tests cover decoding/warm-up, late loading, hidden tabs, visibility hysteresis, 
 
 ## Music
 
-The user-selected track is [Broken Vow on YouTube](https://www.youtube.com/watch?v=CCSdRKSQXnE). The official IFrame player tries to start after page load at 12% volume. If the browser blocks autoplay, a Play music control remains available. The visible player includes volume, mute, and Stop and close controls. Closing it pauses playback and remembers that choice for the current browser session. Playback also stops when the page becomes hidden. No audio is downloaded or extracted. YouTube availability, advertising, and autoplay restrictions remain outside the site's control.
+The optional soundtrack uses the official YouTube player for Broken Vow. A subtle sound icon is available from the first page. Clicking it opens a 200 × 200 player at 12% initial volume; closing it or hiding the page pauses playback. No player is loaded before a click, and no MP3 is included. See [music-control.md](music-control.md) for playback behavior.

@@ -12,7 +12,7 @@ The visual design combines dark blue, warm gold, large serif narrative headings,
 
 The concept, visual direction, and iterative design requests were developed by Haolong. Codex assisted with implementation, data preparation, documentation, and testing. OpenAI image generation produced the atmosphere illustrations and running-dog drawings; these are interpretations, not historical photographs or footage. Museum object images in this snapshot are CC0, and transparent cutouts preserve the original object pixels. Visitors' contemporary messages form a separate collection from the historical museum objects.
 
-The running scenes prepare their artwork before motion begins and stop rendering when offscreen. The optional soundtrack, [Broken Vow on YouTube](https://www.youtube.com/watch?v=CCSdRKSQXnE), uses the official embedded player at a low initial volume. Browsers that block autoplay show a Play music control. No music file is included in this repository.
+The running scenes prepare their artwork before motion begins and stop rendering when offscreen. The optional soundtrack, [Broken Vow on YouTube](https://www.youtube.com/watch?v=CCSdRKSQXnE), opens only when the visitor clicks a subtle sound icon, available from the introduction onward. Its compact 200 × 200 official player starts at 12% volume and stays visible while playing. Closing it pauses the music. No music file is included in this repository.
 
 ## Prototype screenshots
 
