@@ -33,3 +33,8 @@ The production build and twelve tests pass, including preparation timing, visibi
 ## Compact soundtrack control — 15 October 2026
 
 Synced from Site source commit `791904a9951ae8d2131da22899a58fe338dc0559`. The soundtrack now loads only on request, with a subtle icon visible from the introduction and a 200 × 200 YouTube player plus a small link-and-close footer. Initial volume remains 12%. Close/Escape and page hiding pause playback; a late-loading player cannot restart after dismissal. The owner canceled the proposed MP3 replacement, and no audio file was included. All 15 music, animation, catalog, and community tests passed, and the production build succeeded.
+
+
+## Touch interactions and movable music — 17 October 2026
+
+Synced from Site source commit `74934ce6b98822aaf3de23255c393d8a176efcb2`. The music player can be dragged, moved between corners by tapping its grip, or moved with the keyboard. It stays within the visible viewport and remembers its position for the visit. Cube rotation now uses width-aware touch sensitivity and a single parent transform during gestures. The Rotate button has an icon. Clicked cards shift slightly as a whole, including frame and label, without changing chronological depth. All 21 tests and the production build passed. Physical iPhone Safari frame rate still requires device confirmation. The live prototype is now available at https://owney.icare.love/.

@@ -16,7 +16,7 @@ function harness() {
     ['.music-toggle', '.music-panel', '.music-status', '.music-close'].map(name => [name, control()])
   );
   nodes['.music-panel'].hidden = true;
-  const dock = {querySelector: name => nodes[name], addEventListener: (name, fn) => listeners[name] = fn};
+  const dock = {querySelector: name => nodes[name], addEventListener: (name, fn) => listeners[name] = fn,dispatchEvent(){}};
   const document = {
     hidden: false, querySelector: () => dock, createElement: () => ({}),
     head: {append: script => scripts.push(script)},
@@ -30,7 +30,7 @@ function harness() {
   };
   const window = {};
   vm.runInNewContext(source, {
-    document, window, location: {origin: 'https://example.test'},
+    document, window, Event, location: {origin: 'https://example.test'},
     setTimeout: fn => { timeout = fn; return 1; }, clearTimeout() {}
   });
   return {

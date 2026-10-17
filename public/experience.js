@@ -1,5 +1,6 @@
 (()=>{'use strict';const {$,$$}={$:s=>document.querySelector(s),$$:s=>[...document.querySelectorAll(s)]};const {data}=window.owney;const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));let currentView='intro',theme='all',spread=false,rx=-18,ry=-52,dragStart=null,moved=false,lastWheel=0;const reduced=matchMedia('(prefers-reduced-motion:reduce)').matches;
 let touchRotate=false,perspectiveMode='corner',cameraFrame=0,cameraTarget=null;
+let cubeGeometry=null,cameraLayoutFrom=null,cameraLayoutProgress=1,cubeGesture=null,liftedIndex=null;
 const chapters = ['intro','journey','collection','community'];
 const initialChapter = location.hash.slice(1);
 let chapterFrame = 0, navigationLock = false, navigationTimer;
@@ -339,7 +340,7 @@ window.addEventListener('owney:range',updateStepper);
 const stage=$('#cube-stage'),world=$('#cube-world');
 world.innerHTML=`<div class="cube-boundary"></div><div class="cube-boundary cube-front"></div><div class="volume-face volume-top"></div><div class="volume-face volume-bottom"></div><div class="volume-face volume-side"></div>`+data.events.map((e,i)=>`<button class="time-layer" style="--tag-scale:${e.tagScale||1}" data-slice="${i}" aria-label="Select ${esc(e.place)}, ${esc(e.label)}, tag ${esc(e.tag)}"><img src="assets/token-cutouts/tag-${e.tag}.png" alt="Museum tag associated with ${esc(e.place)}, ${esc(e.label)}" draggable="false" decoding="async"><span class="slab-side slab-left" aria-hidden="true"></span><span class="slab-side slab-right" aria-hidden="true"></span><span class="layer-edge"><b>${String(i+1).padStart(2,'0')}</b> ${esc(e.place.split(',')[0])}<small>${esc(e.label)}</small></span></button>`).join('');
 const layers=$$('.time-layer'),layerImages=layers.map(layer=>layer.querySelector('img'));
-let geometryIds=null,geometryCalendar=null,geometryDomain,drawFrame=0,hoverTimer=0,hoverCandidate=null;
+let geometryIds=null,geometryCalendar=null,geometryDomain,drawFrame=0,hoverTimer=0,hoverCandidate=null,liftHoverUntil=0;
 function style(element,key,value){if(element.style.getPropertyValue(key)!==String(value))element.style.setProperty(key,value);}
 function syncGeometry(){
  const visible=window.owney.visibleIndices,calendar=$('#spacing').value==='calendar';
@@ -360,6 +361,7 @@ function updateTagEmphasis(){
   if(layer.hidden)return;
   const active=i===idx,inRange=highlighted.has(i);
   layer.classList.toggle('selected',active);layer.classList.toggle('in-range',inRange);
+  layer.classList.toggle('is-lifted',active&&i===liftedIndex);
   layer.setAttribute('aria-pressed',String(active));
   style(layer,'--tag-opacity',active?1:inRange?(many?.20:.25):(many?.035:.06));
   style(layer,'--frame-opacity',active?1:inRange?.30:.05);
@@ -382,24 +384,37 @@ function fitCamera(size,depth,width,height,perspective){
  }
  return {scale,offsetX,offsetY};
 }
+function paintCube(geometry){
+ const {size,total,width,height,blend}=geometry;
+ const perspective=blend>.99999?Infinity:1600/(1-blend);
+ const fit=fitCamera(size,total,width,height,perspective);
+ world.style.transform='translate3d('+fit.offsetX+'px,'+fit.offsetY+'px,0) scale('+fit.scale+') rotateX('+rx+'deg) rotateY('+ry+'deg) translateZ('+(total/2)+'px)';
+}
 function drawCube(){
- drawFrame=0;syncGeometry();
+ drawFrame=0;
+ // A swipe only changes the parent transform. No inherited CSS variables or layout reads.
+ if(dragStart?.geometry){paintCube(dragStart.geometry);return;}
+ syncGeometry();
  const distance=Math.hypot(rx,(ry+90)*.65),progress=Math.max(0,Math.min(1,1-distance/31));
- const blend=progress*progress*(3-2*progress),profile=distance<.05;
+ const targetBlend=progress*progress*(3-2*progress),profile=distance<.05;
  syncPerspectiveControls(cameraTarget||(profile?'profile':'corner'));
  const width=stage.clientWidth,height=stage.clientHeight;
- if(width>0){
-  const wide=matchMedia('(min-width:1100px) and (min-aspect-ratio:3/2)').matches;
-  const cubeSize=Math.min(wide?440:380,Math.max(128,(height-(wide?24:48))*(wide?1:.9)),width*.56),profileSize=Math.min(340,Math.max(128,height-32));
-  const cubeDepth=Math.min(spread?880:700,width*(spread?.84:.72));
-  const size=cubeSize+(profileSize-cubeSize)*blend,total=cubeDepth+(width*.82-cubeDepth)*blend;
-  style(world,'--plane',size+'px');style(world,'--depth',total+'px');
-  const perspective=blend>.99999?Infinity:1600/(1-blend),fit=fitCamera(size,total,width,height,perspective);
-  world.style.top='50%';
-  world.style.transform='translate3d('+fit.offsetX+'px,'+fit.offsetY+'px,0) scale('+fit.scale+') rotateX('+rx+'deg) rotateY('+ry+'deg) translateZ('+(total/2)+'px)';
-  style(stage,'perspective',Number.isFinite(perspective)?perspective+'px':'none');
-  style(stage,'--profile-blend',blend);stage.classList.toggle('time-profile',profile);world.classList.toggle('spread',spread);
+ if(width<=0)return;
+ const wide=matchMedia('(min-width:1100px) and (min-aspect-ratio:3/2)').matches;
+ const cubeSize=Math.min(wide?440:380,Math.max(128,(height-(wide?24:48))*(wide?1:.9)),width*.56),profileSize=Math.min(340,Math.max(128,height-32));
+ const cubeDepth=Math.min(spread?880:700,width*(spread?.84:.72));
+ let size=cubeSize+(profileSize-cubeSize)*targetBlend,total=cubeDepth+(width*.82-cubeDepth)*targetBlend,blend=targetBlend;
+ if(cameraLayoutFrom&&cameraLayoutProgress<1){
+  const t=cameraLayoutProgress;
+  size=cameraLayoutFrom.size+(size-cameraLayoutFrom.size)*t;
+  total=cameraLayoutFrom.total+(total-cameraLayoutFrom.total)*t;
+  blend=cameraLayoutFrom.blend+(blend-cameraLayoutFrom.blend)*t;
  }
+ style(world,'--plane',size+'px');style(world,'--depth',total+'px');
+ style(stage,'perspective',blend>.99999?'none':1600/(1-blend)+'px');
+ style(stage,'--profile-blend',blend);
+ world.style.top='50%';stage.classList.toggle('time-profile',profile);world.classList.toggle('spread',spread);
+ cubeGeometry={size,total,width,height,blend};paintCube(cubeGeometry);
 }
 function queueCube(){if(!drawFrame)drawFrame=requestAnimationFrame(drawCube);}
 // Reuse identical backdrop assets and debounce rapid hover selections.
@@ -436,11 +451,11 @@ function renderScene(){
  $('#scene-panel').innerHTML=`<div class="scene-copy"><h4 class="sr-only">${esc(e.title)}</h4><p>${esc(e.story)}</p><button class="text-link museum-record" data-object="${e.tag}" aria-label="View original museum record: ${esc(object.title)}">View museum record · ${esc(e.tag)}</button><details class="evidence" ${evidenceOpen?'open':''}><summary>What the record supports</summary><p>${esc(e.fact)}</p><p><strong>Shape:</strong> ${esc(shapeLabels[e.shape])}. ${esc(e.shapeEvidence)} <span class="shape-note">Visual grouping; not a museum catalog field.</span></p><p><strong>Recorded material:</strong> ${esc(object.medium||'Not recorded')}. Journey group: ${esc(materialLabels[eventMaterials[i]])}.</p><p><strong>${e.point?'Map evidence:':'Not mapped:'}</strong> ${esc(e.mapLocation.reason)}</p><p class="imagined"><strong>Imagined in the background:</strong> ${esc(e.imagined)}</p>${(e.relatedTags||[]).map(id=>`<button class="text-link related-object" data-object="${esc(id)}">Also from this encounter: ${esc(objectsById.get(id).title.replace(/ Owney [Tt]ag/,''))}</button>`).join('')}</details></div>`;
  updateAtmosphere(e);syncGeometry();updateTagEmphasis();updateStepper();
 }
-window.addEventListener('owney:selection',renderScene);
+window.addEventListener('owney:selection',event=>{if(event.detail?.source!=='cube')liftedIndex=null;renderScene();});
 window.addEventListener('owney:scope',()=>{renderScene();queueCube();});
 window.addEventListener('owney:range',updateTagEmphasis);
 function clearHover(){clearTimeout(hoverTimer);hoverTimer=0;hoverCandidate=null;}
-function hoverBlocked(){return navigationLock||cameraFrame||dragStart||moved||window.owneyRange.editing;}
+function hoverBlocked(){return navigationLock||cameraFrame||dragStart||moved||performance.now()<liftHoverUntil||window.owneyRange.editing;}
 function previewHover(e){
  if(e.pointerType==='touch'||hoverBlocked()){clearHover();return;}
  const layer=e.target.closest('[data-slice]');
@@ -454,56 +469,55 @@ function previewHover(e){
   window.owney.selectEvent(index,false,'hover');
  },75);
 }
-world.addEventListener('click',e=>{clearHover();if(moved)return;const b=e.target.closest('[data-slice]');if(b)window.owney.selectEvent(+b.dataset.slice);});
+world.addEventListener('click',e=>{clearHover();if(moved||cubeGesture?.suppressClick)return;const b=e.target.closest('[data-slice]');if(b){const index=+b.dataset.slice;liftedIndex=liftedIndex===index?null:index;liftHoverUntil=performance.now()+350;window.owney.selectEvent(index,true,'cube');}});
 world.addEventListener('pointerover',previewHover);
 world.addEventListener('pointermove',previewHover);
 world.addEventListener('pointerout',e=>{if(e.target.closest('[data-slice]')!==e.relatedTarget?.closest?.('[data-slice]'))clearHover();});
 stage.addEventListener('pointerleave',clearHover);
 world.addEventListener('focusin',e=>{const layer=e.target.closest('[data-slice]');if(layer&&!dragStart&&layer.matches(':focus-visible'))window.owney.selectEvent(+layer.dataset.slice);});
 $('#spacing').addEventListener('change',queueCube);
-function rotationMode(enabled){touchRotate=enabled;stage.classList.toggle('rotation-enabled',enabled);$('#rotate-cube').setAttribute('aria-pressed',String(enabled));$('#rotate-cube').textContent=enabled?'Finish rotating':'Rotate cube';updateRotationHint();}
+function rotationMode(enabled){if(!enabled)cubeGesture?.cancel();touchRotate=enabled;stage.classList.toggle('rotation-enabled',enabled);const button=$('#rotate-cube');button.setAttribute('aria-pressed',String(enabled));button.setAttribute('aria-label',enabled?'Finish rotating cube':'Rotate cube');button.querySelector('.rotate-label').textContent=enabled?'Done':'Rotate';updateRotationHint();}
 function updateRotationHint(){
  $('.mouse-hint').textContent=perspectiveMode==='profile'?'Drag to rotate · Browse tags beside the story':'Hover to preview · Drag to rotate';
- $('.touch-hint').textContent=touchRotate?'Drag the cube to rotate':perspectiveMode==='profile'?'Browse tags beside the story':'Tap a tag to explore';
+ $('.touch-hint').textContent=touchRotate?'Swipe to rotate · Tap Done to scroll':perspectiveMode==='profile'?'Browse tags beside the story':'Tap a tag to explore';
 }
 function syncPerspectiveControls(mode){
  if(perspectiveMode===mode)return;perspectiveMode=mode;
  $('#spacing').value=mode==='profile'?'calendar':'encounters';syncGeometry();
  ['corner','profile'].forEach(name=>{const b=$('#'+name+'-view');b.classList.toggle('chosen',name===mode);b.setAttribute('aria-pressed',String(name===mode));});updateRotationHint();
 }
-function stopCamera(){if(cameraFrame)cancelAnimationFrame(cameraFrame);cameraFrame=0;cameraTarget=null;}
-function animateCamera(x,y,mode,duration=760){
- stopCamera();clearHover();
+function stopCamera(){if(cameraFrame)cancelAnimationFrame(cameraFrame);cameraFrame=0;cameraTarget=null;cameraLayoutFrom=null;cameraLayoutProgress=1;stage.classList.remove('camera-moving');}
+function animateCamera(x,y,mode,duration=760,fromLayout=null){
+ stopCamera();clearHover();cameraLayoutFrom=fromLayout;cameraLayoutProgress=fromLayout?0:1;stage.classList.add('camera-moving');
  const fromX=rx,fromY=ry,start=performance.now();cameraTarget=mode;
- if(reduced){rx=x;ry=y;cameraTarget=null;drawCube();return;}
+ if(reduced){rx=x;ry=y;cameraTarget=null;cameraLayoutFrom=null;cameraLayoutProgress=1;stage.classList.remove('camera-moving');drawCube();return;}
  function frame(now){
   const t=Math.min(1,(now-start)/duration),ease=t<.5?4*t*t*t:1-Math.pow(-2*t+2,3)/2;
-  rx=fromX+(x-fromX)*ease;ry=fromY+(y-fromY)*ease;
-  if(t===1){rx=x;ry=y;cameraFrame=0;cameraTarget=null;}drawCube();if(t<1)cameraFrame=requestAnimationFrame(frame);
+  rx=fromX+(x-fromX)*ease;ry=fromY+(y-fromY)*ease;cameraLayoutProgress=ease;
+  if(t===1){rx=x;ry=y;cameraFrame=0;cameraTarget=null;cameraLayoutFrom=null;stage.classList.remove('camera-moving');}drawCube();if(t<1)cameraFrame=requestAnimationFrame(frame);
  }
  cameraFrame=requestAnimationFrame(frame);
 }
 function setPerspective(mode){rotationMode(false);$('#spacing').value=mode==='profile'?'calendar':'encounters';animateCamera(mode==='profile'?0:-18,mode==='profile'?-90:-52,mode);}
 $('#corner-view').addEventListener('click',()=>setPerspective('corner'));$('#profile-view').addEventListener('click',()=>setPerspective('profile'));
 $('#rotate-cube').addEventListener('click',()=>rotationMode(!touchRotate));
-stage.addEventListener('pointerdown',e=>{if(e.button!==0||(e.pointerType==='touch'&&!touchRotate))return;stopCamera();clearHover();dragStart={x:e.clientX,y:e.clientY,rx,ry,id:e.pointerId};moved=false;stage.classList.add('dragging');});
-stage.addEventListener('pointermove',e=>{
- if(!dragStart||e.pointerId!==dragStart.id)return;const dx=e.clientX-dragStart.x,dy=e.clientY-dragStart.y;
- if(Math.hypot(dx,dy)<=5&&!moved)return;moved=true;if(!stage.hasPointerCapture(e.pointerId))stage.setPointerCapture(e.pointerId);
- ry=Math.max(-180,Math.min(180,dragStart.ry+dx*.22));rx=Math.max(-75,Math.min(75,dragStart.rx-dy*.18));queueCube();
+cubeGesture=window.OWNEY_CUBE_GESTURE.mount(stage,{
+ touchEnabled:()=>touchRotate,
+ angles:()=>({rx,ry}),
+ start(){stopCamera();clearHover();if(!cubeGeometry)drawCube();dragStart={geometry:{...cubeGeometry}};moved=false;},
+ change(angles){rx=angles.rx;ry=angles.ry;moved=true;stage.classList.add('dragging');queueCube();},
+ end(result){
+  const fromLayout=dragStart?.geometry;dragStart=null;stage.classList.remove('dragging');
+  const shouldAlign=!result.cancelled&&result.moved&&Math.abs(ry+90)<12&&Math.abs(rx)<24;
+  if(shouldAlign)animateCamera(0,-90,'profile',240,fromLayout);
+  else if(result.moved&&!result.cancelled)animateCamera(rx,ry,'corner',180,fromLayout);
+  else queueCube();
+  setTimeout(()=>moved=false,0);
+ }
 });
-function endDrag(e){
- if(!dragStart||e.pointerId!==dragStart.id)return;
- const shouldAlign=e.type==='pointerup'&&moved&&Math.abs(ry+90)<9&&Math.abs(rx)<24;
- dragStart=null;stage.classList.remove('dragging');if(stage.hasPointerCapture(e.pointerId))stage.releasePointerCapture(e.pointerId);
- if(shouldAlign)animateCamera(0,-90,'profile',260);setTimeout(()=>moved=false,0);
-}
-// Release outside the stage must also clear the drag lock.
-window.addEventListener('pointerup',endDrag);window.addEventListener('pointercancel',endDrag);
-stage.addEventListener('lostpointercapture',e=>{if(dragStart?.id===e.pointerId)endDrag(e);});
-window.addEventListener('blur',()=>{clearHover();if(dragStart)endDrag({pointerId:dragStart.id,type:'blur'});});
+window.addEventListener('blur',clearHover);
 stage.addEventListener('keydown',e=>{if(['ArrowRight','ArrowLeft','Home','End'].includes(e.key)){e.preventDefault();const indices=browsingIndices();if(!indices.length)return;if(e.key==='Home'||e.key==='End')window.owney.selectEvent(e.key==='Home'?indices[0]:indices.at(-1));else stepTag(e.key==='ArrowRight'?1:-1);}});
-new ResizeObserver(queueCube).observe(stage);window.addEventListener('resize',queueCube);renderScene();queueCube();
+new ResizeObserver(queueCube).observe(stage);window.addEventListener('resize',()=>{cubeGesture.cancel();queueCube();});renderScene();queueCube();
 
 function openAbout(){$('#about-dialog').showModal();}
 $('#journey-about').addEventListener('click',openAbout);

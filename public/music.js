@@ -13,6 +13,7 @@
     panel.hidden = !open;
     toggle.hidden = open;
     toggle.setAttribute('aria-expanded', String(open));
+    dock.dispatchEvent(new Event(open ? 'music:open' : 'music:close'));
   }
 
   function stop(restoreFocus = false) {

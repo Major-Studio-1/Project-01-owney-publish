@@ -261,3 +261,15 @@
  .journey-filter-summary{min-height:44px;margin:0;font-size:12px;order:2}
  .journey-filter-summary:not(.is-active){display:none}
 }
+
+/* Touch manipulation keeps the layers stable while compositing only the camera. */
+#rotate-cube{gap:6px;white-space:nowrap;justify-content:center}
+#rotate-cube svg{width:19px;height:19px;fill:none;stroke:currentColor;stroke-width:1.35;stroke-linecap:round;stroke-linejoin:round;flex-shrink:0}
+#cube-stage.rotation-enabled,#cube-stage.rotation-enabled .time-layer{touch-action:none}
+#cube-stage.rotation-enabled{-webkit-touch-callout:none}
+#cube-stage.dragging #cube-world,#cube-stage.camera-moving #cube-world{will-change:transform}
+#cube-stage.dragging .slab-side,#cube-stage.dragging .volume-face{visibility:hidden}
+#cube-stage .time-layer{--card-offset:0px;transform:translate3d(calc(-50% + var(--card-offset)),-50%,calc(var(--layer-t) * var(--depth) * -1));transition:transform .22s ease-out}
+#cube-stage .time-layer.is-lifted{--card-offset:calc(var(--plane) * .22 * (1 - var(--profile-blend)))}
+#cube-stage.dragging .time-layer,#cube-stage.camera-moving .time-layer{--card-offset:0px;transition:none}
+@media(prefers-reduced-motion:reduce){#cube-stage .time-layer{transition:none}}

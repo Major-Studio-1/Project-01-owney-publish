@@ -13,3 +13,11 @@
 .music-toggle[hidden],.music-panel[hidden]{display:none}
 @media(pointer:coarse){.music-toggle{width:42px;height:42px}.music-footer{height:40px}.music-close{width:40px;height:40px}}
 @media(prefers-reduced-motion:reduce){.music-toggle{transition:none}}
+
+/* The grip moves the complete visible player; native video controls remain usable. */
+.music-footer{gap:2px}.music-footer a{margin-right:auto}
+.music-drag{display:grid;place-items:center;width:28px;height:28px;flex-shrink:0;padding:0;border:0;background:transparent;color:#84949d;cursor:grab;touch-action:none;user-select:none;-webkit-user-select:none}
+.music-drag svg{width:16px;height:16px;fill:none;stroke:currentColor;stroke-width:2.8;stroke-linecap:round}
+.music-drag:hover,.music-drag:focus-visible{color:#e1b264}.music-dragging .music-drag{cursor:grabbing;color:#e1b264}
+.music-dragging iframe{pointer-events:none}.music-dragging{will-change:transform}
+@media(pointer:coarse),(max-width:600px){.music-footer{height:44px;padding-right:0}.music-drag,.music-close{width:44px;height:44px}.music-toggle{width:42px;height:42px}}
