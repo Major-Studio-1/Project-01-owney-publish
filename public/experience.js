@@ -367,10 +367,11 @@ function updateTagEmphasis(){
   style(layer,'--frame-opacity',active?1:inRange?.30:.05);
  });
 }
-// Fit eight volume corners. Per-frame work changes the parent, not 67 layers.
-function fitCamera(size,depth,width,height,perspective){
+// Reserve the slide envelope on narrow stages, keeping framing stable between selections.
+// Per-frame work changes the parent, not 67 layers.
+function fitCamera(size,depth,width,height,perspective,cardReach=0){
  const xAngle=rx*Math.PI/180,yAngle=ry*Math.PI/180,points=[];
- for(const x of [-size/2,size/2])for(const y of [-size/2,size/2])for(const z of [-depth/2,depth/2]){
+ for(const x of [-size/2,size/2+cardReach])for(const y of [-size/2,size/2])for(const z of [-depth/2,depth/2]){
   const x1=x*Math.cos(yAngle)+z*Math.sin(yAngle),z1=-x*Math.sin(yAngle)+z*Math.cos(yAngle);
   points.push([x1,y*Math.cos(xAngle)-z1*Math.sin(xAngle),y*Math.sin(xAngle)+z1*Math.cos(xAngle)]);
  }
@@ -387,7 +388,8 @@ function fitCamera(size,depth,width,height,perspective){
 function paintCube(geometry){
  const {size,total,width,height,blend}=geometry;
  const perspective=blend>.99999?Infinity:1600/(1-blend);
- const fit=fitCamera(size,total,width,height,perspective);
+ const cardReach=width<700?size*.58*(1-blend):0;
+ const fit=fitCamera(size,total,width,height,perspective,cardReach);
  world.style.transform='translate3d('+fit.offsetX+'px,'+fit.offsetY+'px,0) scale('+fit.scale+') rotateX('+rx+'deg) rotateY('+ry+'deg) translateZ('+(total/2)+'px)';
 }
 function drawCube(){

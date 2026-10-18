@@ -43,3 +43,7 @@ Synced from Site source commit `74934ce6b98822aaf3de23255c393d8a176efcb2`. The m
 ## Independent clouds and idle tag tour — 17 October 2026
 
 Synced from Site source commit `6ad23fd5f4a116cf8a551687d5806bb99e110f46`. Added a transparent painted cloud asset and two independently animated layers. The opening date range is 1 May–31 December 1896, with five dated tags. A visitor-controlled idle tour follows the current highlighted dates, pauses for input, and remains inactive offscreen, while reading expanded evidence, or with reduced motion enabled. Selected whole cards slide 58% of their width; date depth stays fixed. All 25 automated checks and the production build passed. Asset prompt and interaction details are in `docs/idle-tour-and-clouds.md`.
+
+## Phone framing follow-up — 18 October 2026
+
+Synced from Site source commit `0ec266513847a6936465524e8839f3a8a49481ea`. Narrow cube stages now reserve space for the full 58% card slide; the camera stays stable between selections. Two geometric regression tests cover card containment across phone widths, chronological positions, and rotation angles, plus centered Timeline framing. Those tests and eleven related catalog, touch, and idle-tour tests passed. The production build succeeded.
