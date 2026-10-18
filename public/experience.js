@@ -451,7 +451,7 @@ function renderScene(){
  $('#scene-panel').innerHTML=`<div class="scene-copy"><h4 class="sr-only">${esc(e.title)}</h4><p>${esc(e.story)}</p><button class="text-link museum-record" data-object="${e.tag}" aria-label="View original museum record: ${esc(object.title)}">View museum record · ${esc(e.tag)}</button><details class="evidence" ${evidenceOpen?'open':''}><summary>What the record supports</summary><p>${esc(e.fact)}</p><p><strong>Shape:</strong> ${esc(shapeLabels[e.shape])}. ${esc(e.shapeEvidence)} <span class="shape-note">Visual grouping; not a museum catalog field.</span></p><p><strong>Recorded material:</strong> ${esc(object.medium||'Not recorded')}. Journey group: ${esc(materialLabels[eventMaterials[i]])}.</p><p><strong>${e.point?'Map evidence:':'Not mapped:'}</strong> ${esc(e.mapLocation.reason)}</p><p class="imagined"><strong>Imagined in the background:</strong> ${esc(e.imagined)}</p>${(e.relatedTags||[]).map(id=>`<button class="text-link related-object" data-object="${esc(id)}">Also from this encounter: ${esc(objectsById.get(id).title.replace(/ Owney [Tt]ag/,''))}</button>`).join('')}</details></div>`;
  updateAtmosphere(e);syncGeometry();updateTagEmphasis();updateStepper();
 }
-window.addEventListener('owney:selection',event=>{if(event.detail?.source!=='cube')liftedIndex=null;renderScene();});
+window.addEventListener('owney:selection',event=>{if(event.detail?.source==='idle'){liftedIndex=event.detail.index;liftHoverUntil=performance.now()+1000;}else if(event.detail?.source!=='cube')liftedIndex=null;renderScene();});
 window.addEventListener('owney:scope',()=>{renderScene();queueCube();});
 window.addEventListener('owney:range',updateTagEmphasis);
 function clearHover(){clearTimeout(hoverTimer);hoverTimer=0;hoverCandidate=null;}
@@ -519,6 +519,31 @@ window.addEventListener('blur',clearHover);
 stage.addEventListener('keydown',e=>{if(['ArrowRight','ArrowLeft','Home','End'].includes(e.key)){e.preventDefault();const indices=browsingIndices();if(!indices.length)return;if(e.key==='Home'||e.key==='End')window.owney.selectEvent(e.key==='Home'?indices[0]:indices.at(-1));else stepTag(e.key==='ArrowRight'?1:-1);}});
 new ResizeObserver(queueCube).observe(stage);window.addEventListener('resize',()=>{cubeGesture.cancel();queueCube();});renderScene();queueCube();
 
+// The automatic tour never changes the date brush or takes over an active gesture.
+let tourVisible=false;
+const tourMotion=matchMedia('(prefers-reduced-motion:reduce)'),tourButton=$('#idle-tour-toggle');
+const idleTour=window.OWNEY_IDLE_TOUR.create({
+ getIds:()=>window.owneyRange.members,
+ canRun:()=>tourVisible&&currentView==='journey'&&!document.hidden&&!tourMotion.matches&&!navigationLock&&!dragStart&&!cameraFrame&&!window.owneyRange.editing&&!document.querySelector('dialog[open],#scene-panel details[open]')&&!$('#journey').querySelector(':focus-visible'),
+ select:index=>window.owney.selectEvent(index,true,'idle'),
+ onRunning:running=>{stage.classList.toggle('auto-touring',running);tourButton.classList.toggle('is-running',running);$('#scene-title').setAttribute('aria-live',running?'off':'polite');$('#scene-panel').setAttribute('aria-live',running?'off':'polite');$('#map-caption').setAttribute('aria-live',running?'off':'polite');}
+});
+function updateTourButton(){
+ const enabled=idleTour.enabled;
+ tourButton.setAttribute('aria-pressed',String(enabled));
+ tourButton.setAttribute('aria-label',enabled?'Pause automatic tag tour':'Enable automatic tag tour');
+ tourButton.title=enabled?'Automatic tour after 12 seconds of inactivity · Pause':'Automatic tour paused · Enable';
+ tourButton.querySelector('.tour-pause').hidden=!enabled;tourButton.querySelector('.tour-play').hidden=enabled;
+}
+tourButton.addEventListener('click',()=>{idleTour.setEnabled(!idleTour.enabled);updateTourButton();});updateTourButton();
+if('IntersectionObserver'in window)new IntersectionObserver(entries=>{tourVisible=entries[0].isIntersecting&&entries[0].intersectionRatio>=.3;idleTour.activity();},{threshold:[0,.3]}).observe(stage);
+for(const event of ['pointerdown','pointermove','keydown','wheel'])document.addEventListener(event,()=>idleTour.activity(),{passive:true});
+window.addEventListener('scroll',()=>idleTour.activity(),{passive:true});
+document.addEventListener('visibilitychange',()=>idleTour.activity());window.addEventListener('blur',()=>idleTour.activity());
+tourMotion.addEventListener('change',()=>idleTour.activity());
+for(const event of ['owney:range','owney:scope'])window.addEventListener(event,()=>idleTour.activity());
+window.addEventListener('owney:selection',event=>{if(event.detail?.source!=='idle')idleTour.activity();});
+
 function openAbout(){$('#about-dialog').showModal();}
 $('#journey-about').addEventListener('click',openAbout);
 $('#about-button').addEventListener('click',openAbout);$('#close-about').addEventListener('click',()=>$('#about-dialog').close());
@@ -567,7 +592,7 @@ function changeCollectionFacet(kind,value){
 }
 window.addEventListener('owney:scope',()=>queueCollectionLink({activate:true,focus:true,reset:!collectionFromControls}));
 window.addEventListener('owney:range',()=>queueCollectionLink({activate:true,focus:true,reset:!collectionFromControls}));
-window.addEventListener('owney:selection',event=>queueCollectionLink({activate:event.detail?.source!=='hover',focus:true,reset:event.detail?.source!=='hover'&&!collectionFromControls}));
+window.addEventListener('owney:selection',event=>{const intentional=!['hover','idle'].includes(event.detail?.source);queueCollectionLink({activate:intentional,focus:true,reset:intentional&&!collectionFromControls});});
 window.owneyExperience={setView,get mode(){return 'combined'},get view(){return currentView},get navigating(){return navigationLock},filterCollection:(category,query='')=>{if(category!=='all'&&!data.categories[category])throw Error('Unknown category');resetCollection();theme=category;$('#collection-search').value=query;return renderCollection()}};
 if(chapters.includes(initialChapter)||initialChapter==='cube')requestAnimationFrame(()=>setView(initialChapter,{behavior:'auto'}));else markView('intro');
 })();

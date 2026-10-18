@@ -1,7 +1,15 @@
 /* Prepare small scenery textures once; only transforms move during playback. */
 (()=>{'use strict';
 const states=new WeakMap();
-let artwork;
+let artwork,cloudArtwork;
+function loadClouds(){
+ if(!cloudArtwork)cloudArtwork=(async()=>{const image=new Image();image.src='assets/owney-clouds.png';try{await image.decode();return image;}catch{return null;}})();
+ return cloudArtwork;
+}
+function cloudTexture(image,width){
+ const canvas=document.createElement('canvas');canvas.width=Math.max(1,Math.round(Math.min(width,1200)));canvas.height=Math.round(canvas.width*image.naturalHeight/image.naturalWidth);
+ canvas.getContext('2d').drawImage(image,0,0,canvas.width,canvas.height);return canvas;
+}
 function loadArtwork(){
  if(!artwork)artwork=(async()=>{
   const image=new Image();image.src='assets/owney-country-scene.png';
@@ -48,11 +56,12 @@ function resize(element){
  element.querySelector('.country-far .country-track').replaceChildren(far);
  element.querySelector('.country-middle .country-track').replaceChildren(...copies(middle));
  element.querySelector('.country-near .country-track').replaceChildren(...copies(near));
+ if(state.clouds){element.querySelector('.country-cloud-far').replaceChildren(cloudTexture(state.clouds,width*.54));element.querySelector('.country-cloud-near').replaceChildren(cloudTexture(state.clouds,width*.74));}
  return true;
 }
 async function prepare(element){
- const image=await loadArtwork();if(!image)return false;
- if(!states.has(element))states.set(element,{image,size:''});
+ const [image,clouds]=await Promise.all([loadArtwork(),loadClouds()]);if(!image)return false;
+ if(!states.has(element))states.set(element,{image,clouds,size:''});
  resize(element);return true;
 }
 window.OwneyCountry={prepare,resize};

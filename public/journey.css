@@ -270,6 +270,14 @@
 #cube-stage.dragging #cube-world,#cube-stage.camera-moving #cube-world{will-change:transform}
 #cube-stage.dragging .slab-side,#cube-stage.dragging .volume-face{visibility:hidden}
 #cube-stage .time-layer{--card-offset:0px;transform:translate3d(calc(-50% + var(--card-offset)),-50%,calc(var(--layer-t) * var(--depth) * -1));transition:transform .22s ease-out}
-#cube-stage .time-layer.is-lifted{--card-offset:calc(var(--plane) * .22 * (1 - var(--profile-blend)))}
+#cube-stage .time-layer.is-lifted{--card-offset:calc(var(--plane) * .58 * (1 - var(--profile-blend)))}
 #cube-stage.dragging .time-layer,#cube-stage.camera-moving .time-layer{--card-offset:0px;transition:none}
 @media(prefers-reduced-motion:reduce){#cube-stage .time-layer{transition:none}}
+.tag-stepper .auto-tour-toggle{display:inline-flex;align-items:center;justify-content:center;width:30px;min-height:30px;margin-left:auto;padding:5px;color:#aebbc4;opacity:.6}
+.auto-tour-toggle svg{width:16px;height:16px;fill:none;stroke:currentColor;stroke-width:1.5}.auto-tour-toggle svg[hidden]{display:none}
+.tag-stepper .auto-tour-toggle:is(:hover,:focus-visible,.is-running){opacity:1;color:var(--gold)}
+#cube-stage .time-layer{transition:transform .38s cubic-bezier(.22,.65,.25,1)}
+#cube-stage.auto-touring .time-layer{transition:transform .85s cubic-bezier(.22,.65,.25,1)}
+#cube-stage.dragging .time-layer,#cube-stage.camera-moving .time-layer{transition:none}
+@media(pointer:coarse){.tag-stepper .auto-tour-toggle{width:44px;min-height:44px}}
+@media(prefers-reduced-motion:reduce){#cube-stage .time-layer,#cube-stage.auto-touring .time-layer{transition:none}}

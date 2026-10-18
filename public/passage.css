@@ -26,3 +26,13 @@
 @media(min-width:980px) and (max-height:700px){.owney-passage{--dog-size:min(56vw,100svh)}}
 @media(max-width:600px){.owney-passage{--dog-size:88vw}.owney-runner{bottom:25%}.owney-passage figcaption{font-size:22px;max-width:330px;bottom:7%}.country-middle{--country-duration:var(--road-duration,6.6s)}.country-near{--country-duration:var(--near-duration,5.3s)}}
 @media(prefers-reduced-motion:reduce){.owney-passage-art{transition:none}.owney-passage .country-track{animation-play-state:paused!important}}
+/* Transparent painted clouds drift independently, above the distant scenery. */
+.country-cloud{position:absolute;pointer-events:none;transform:translate3d(0,0,0)}
+.country-cloud canvas{display:block;width:100%;height:auto}
+.country-cloud-far{top:-4%;left:29%;width:54%;opacity:.42;--cloud-duration:78s}
+.country-cloud-near{top:0%;left:4%;width:74%;opacity:.70;--cloud-duration:46s}
+.owney-passage.is-ready .country-cloud{animation:owney-cloud-drift var(--cloud-duration) ease-in-out infinite alternate;animation-play-state:paused}
+.owney-passage.is-running .country-cloud{animation-play-state:running}
+.owney-passage:is(.is-warming,.is-running) .country-cloud{will-change:transform}
+@keyframes owney-cloud-drift{from{transform:translate3d(9%,0,0)}to{transform:translate3d(-23%,0,0)}}
+@media(prefers-reduced-motion:reduce){.owney-passage .country-cloud{animation-play-state:paused!important}}

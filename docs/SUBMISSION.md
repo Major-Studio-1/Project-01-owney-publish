@@ -38,3 +38,8 @@ Synced from Site source commit `791904a9951ae8d2131da22899a58fe338dc0559`. The s
 ## Touch interactions and movable music — 17 October 2026
 
 Synced from Site source commit `74934ce6b98822aaf3de23255c393d8a176efcb2`. The music player can be dragged, moved between corners by tapping its grip, or moved with the keyboard. It stays within the visible viewport and remembers its position for the visit. Cube rotation now uses width-aware touch sensitivity and a single parent transform during gestures. The Rotate button has an icon. Clicked cards shift slightly as a whole, including frame and label, without changing chronological depth. All 21 tests and the production build passed. Physical iPhone Safari frame rate still requires device confirmation. The live prototype is now available at https://owney.icare.love/.
+
+
+## Independent clouds and idle tag tour — 17 October 2026
+
+Synced from Site source commit `6ad23fd5f4a116cf8a551687d5806bb99e110f46`. Added a transparent painted cloud asset and two independently animated layers. The opening date range is 1 May–31 December 1896, with five dated tags. A visitor-controlled idle tour follows the current highlighted dates, pauses for input, and remains inactive offscreen, while reading expanded evidence, or with reduced motion enabled. Selected whole cards slide 58% of their width; date depth stays fixed. All 25 automated checks and the production build passed. Asset prompt and interaction details are in `docs/idle-tour-and-clouds.md`.

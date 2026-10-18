@@ -56,5 +56,8 @@
     return { start: range.start + shift, end: range.end + shift };
   }
 
-  window.OWNEY_TIMELINE_MODEL = Object.freeze({ dayMs, makeDomain, clampRange, members, fraction, includeDay });
+  function initialRange(domain) {
+    return clampRange(Date.UTC(1896,4,1)/dayMs,Date.UTC(1896,11,31)/dayMs,domain.firstDay,domain.lastDay);
+  }
+  window.OWNEY_TIMELINE_MODEL = Object.freeze({ dayMs, makeDomain, clampRange, members, fraction, includeDay, initialRange });
 })();

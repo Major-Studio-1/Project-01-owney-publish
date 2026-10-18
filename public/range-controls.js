@@ -4,7 +4,7 @@
  const startInput=$('#range-start'),endInput=$('#range-end'),track=$('#range-track');
  const date=day=>new Date(day*model.dayMs).toLocaleDateString('en-GB',{day:'numeric',month:'short',year:'numeric',timeZone:'UTC'});
  const eventDay=i=>Math.floor(Date.parse(data.events[i].date)/model.dayMs);
- let domain,sourceIds,start,end,highlighted=[],rangeFrame=0,brush=null,editing=false,bars=[];
+ let domain,sourceIds,start,end,highlighted=[],rangeFrame=0,brush=null,editing=false,bars=[],firstRange=true;
  function rebuild(){
   if(brush&&track.hasPointerCapture(brush.id))track.releasePointerCapture(brush.id);
   brush=null;editing=false;
@@ -14,7 +14,7 @@
   track.hidden=empty;$('#range-ticks').hidden=empty;$('#range-all').disabled=empty;
   for(const input of [startInput,endInput]){input.min=empty?0:domain.firstDay;input.max=empty?0:domain.lastDay;input.disabled=empty||domain.firstDay===domain.lastDay;}
   if(empty){$('#range-distribution').innerHTML='';$('#range-ticks').innerHTML='';bars=[];return;}
-  if(!$('#journey-scope').value||$('#journey-scope').value==='all')end=Math.min(end,Math.floor(Date.UTC(new Date(start*model.dayMs).getUTCFullYear(),11,31)/model.dayMs));
+  if(firstRange){({start,end}=model.initialRange(domain));firstRange=false;}
   const grouped=new Map();sourceIds.forEach(i=>{const d=eventDay(i);grouped.set(d,(grouped.get(d)||0)+1);});
   $('#range-distribution').innerHTML=[...grouped].map(([d,n])=>`<rect data-day="${d}" x="${Math.min(997,Math.max(0,model.fraction(d,domain.firstDay,domain.lastDay)*1000-1.5))}" y="${30-Math.min(28,8+n*5)}" width="3" height="${Math.min(28,8+n*5)}"/>`).join('');
   bars=[...$('#range-distribution').querySelectorAll('rect')];
@@ -74,11 +74,11 @@
  function finish(e){if(!brush||e.pointerId!==brush.id)return;brush=null;if(track.hasPointerCapture(e.pointerId))track.releasePointerCapture(e.pointerId);commit();}
  track.addEventListener('pointerup',finish);track.addEventListener('pointercancel',finish);
  window.addEventListener('owney:selection',e=>{
-  if(e.detail?.source==='hover')return;
+  if(e.detail?.source==='hover'||e.detail?.source==='idle')return;
   if(sourceIds!==window.owney.visibleIndices){rebuild();if(!editing)includeSelection();render();}
   else if(!editing&&includeSelection())render();
  });
  window.addEventListener('owney:scope',()=>{rebuild();includeSelection();render();});
  window.owneyRange={contains:i=>highlighted.includes(i),get editing(){return editing;},get members(){return highlighted;},get start(){return start;},get end(){return end;},refresh:render,showAll};
- rebuild();render();
+ rebuild();render();if(highlighted.length)window.owney.selectEvent(highlighted[0],true,'range');
 })();
