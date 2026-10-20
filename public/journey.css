@@ -270,7 +270,7 @@
 #cube-stage.dragging #cube-world,#cube-stage.camera-moving #cube-world{will-change:transform}
 #cube-stage.dragging .slab-side,#cube-stage.dragging .volume-face{visibility:hidden}
 #cube-stage .time-layer{--card-offset:0px;transform:translate3d(calc(-50% + var(--card-offset)),-50%,calc(var(--layer-t) * var(--depth) * -1));transition:transform .22s ease-out}
-#cube-stage .time-layer.is-lifted{--card-offset:calc(var(--plane) * .58 * (1 - var(--profile-blend)))}
+#cube-stage .time-layer.is-lifted{--card-offset:calc(var(--plane) * .5 * (1 - var(--profile-blend)))}
 #cube-stage.dragging .time-layer,#cube-stage.camera-moving .time-layer{--card-offset:0px;transition:none}
 @media(prefers-reduced-motion:reduce){#cube-stage .time-layer{transition:none}}
 .tag-stepper .auto-tour-toggle{display:inline-flex;align-items:center;justify-content:center;width:30px;min-height:30px;margin-left:auto;padding:5px;color:#aebbc4;opacity:.6}

@@ -51,16 +51,17 @@ test('leaving during preparation never starts a hidden animation; failed assets 
 test('scenery paints once at a bounded size and reuses the decoded image',async()=>{
  const code=fs.readFileSync(new URL('../public/country-scene.js',import.meta.url),'utf8');
  let requests=0,draws=0,width=1920,height=1080;
- const makeCanvas=()=>({width:0,height:0,getContext:()=>({scale(){},drawImage(){draws++;},createLinearGradient:()=>({addColorStop(){}}),fillRect(){}})});
- class Image{naturalWidth=1672;naturalHeight=941;set src(value){if(value.includes('clouds')){this.naturalWidth=2172;this.naturalHeight=724;}}decode(){requests++;return Promise.resolve();}}
+ const makeCanvas=()=>({width:0,height:0,style:{setProperty(){}},getContext:()=>({scale(){},drawImage(){draws++;},createLinearGradient:()=>({addColorStop(){}}),fillRect(){},beginPath(){},moveTo(){},lineTo(){},closePath(){},fill(){}})});
+ class Image{naturalWidth=1672;naturalHeight=941;set src(value){assert.equal(value,'assets/owney-country-scene.png','only the original countryside artwork is loaded');}decode(){requests++;return Promise.resolve();}}
  const window={},document={createElement:makeCanvas};
  vm.runInNewContext(code,{window,document,Image,devicePixelRatio:2});
  const tracks=new Map();const element={getBoundingClientRect:()=>({width,height}),querySelector:selector=>({replaceChildren:(...children)=>tracks.set(selector,children)})};
- await window.OwneyCountry.prepare(element);assert.equal(requests,2);assert.equal(draws,9);
- const canvases=[...tracks.values()].flat();assert.equal(canvases.length,9);
+ await window.OwneyCountry.prepare(element);assert.equal(requests,1);assert.equal(draws,9);
+ const canvases=[...tracks.values()].flat();assert.equal(canvases.length,8);
+ assert.equal(tracks.get('.country-far .country-track')[1].className,'country-sky');
  assert(canvases.every(c=>c.width<=1920));
  assert(canvases.reduce((total,c)=>total+c.width*c.height,0)<1920*1080*3,'less than three screens of textures');
  assert.equal(window.OwneyCountry.resize(element),false);assert.equal(draws,9,'no per-frame painting or unchanged resize repaint');
  width=390;height=790;assert.equal(window.OwneyCountry.resize(element),true);assert.equal(draws,18);
- await window.OwneyCountry.prepare(element);assert.equal(requests,2);assert.equal(draws,18);
+ await window.OwneyCountry.prepare(element);assert.equal(requests,1);assert.equal(draws,18);
 });

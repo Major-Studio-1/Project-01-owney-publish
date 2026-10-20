@@ -367,9 +367,9 @@ function updateTagEmphasis(){
   style(layer,'--frame-opacity',active?1:inRange?.30:.05);
  });
 }
-// Reserve the slide envelope on narrow stages, keeping framing stable between selections.
+// Reserve the full slide envelope and ease toward the left edge as faces turn forward.
 // Per-frame work changes the parent, not 67 layers.
-function fitCamera(size,depth,width,height,perspective,cardReach=0){
+function fitCamera(size,depth,width,height,perspective,cardReach=0,leftBias=0){
  const xAngle=rx*Math.PI/180,yAngle=ry*Math.PI/180,points=[];
  for(const x of [-size/2,size/2+cardReach])for(const y of [-size/2,size/2])for(const z of [-depth/2,depth/2]){
   const x1=x*Math.cos(yAngle)+z*Math.sin(yAngle),z1=-x*Math.sin(yAngle)+z*Math.cos(yAngle);
@@ -383,13 +383,19 @@ function fitCamera(size,depth,width,height,perspective,cardReach=0){
   const ratio=Math.min(1,(width-24)/(right-left),(height-32)/(bottom-top));
   if(ratio<1){scale*=ratio*.995;offsetX=0;offsetY=0;}else{offsetX-=(left+right)/2;offsetY-=(top+bottom)/2;}
  }
+ const alignedX=Math.max(...points.map(([x,y,z])=>(12-width/2)*(1-scale*z/perspective)-scale*x));
+ offsetX+=(alignedX-offsetX)*leftBias;
  return {scale,offsetX,offsetY};
+}
+function faceAlignment(){
+ const ease=t=>{t=Math.max(0,Math.min(1,t));return t*t*(3-2*t);};
+ return ease(1-Math.abs(ry)/42)*ease((70-Math.abs(rx))/35);
 }
 function paintCube(geometry){
  const {size,total,width,height,blend}=geometry;
  const perspective=blend>.99999?Infinity:1600/(1-blend);
- const cardReach=width<700?size*.58*(1-blend):0;
- const fit=fitCamera(size,total,width,height,perspective,cardReach);
+ const cardReach=size*.5*(1-blend);
+ const fit=fitCamera(size,total,width,height,perspective,cardReach,faceAlignment());
  world.style.transform='translate3d('+fit.offsetX+'px,'+fit.offsetY+'px,0) scale('+fit.scale+') rotateX('+rx+'deg) rotateY('+ry+'deg) translateZ('+(total/2)+'px)';
 }
 function drawCube(){

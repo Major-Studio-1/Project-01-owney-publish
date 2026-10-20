@@ -47,3 +47,7 @@ Synced from Site source commit `6ad23fd5f4a116cf8a551687d5806bb99e110f46`. Added
 ## Phone framing follow-up — 18 October 2026
 
 Synced from Site source commit `0ec266513847a6936465524e8839f3a8a49481ea`. Narrow cube stages now reserve space for the full 58% card slide; the camera stays stable between selections. Two geometric regression tests cover card containment across phone widths, chronological positions, and rotation angles, plus centered Timeline framing. Those tests and eleven related catalog, touch, and idle-tour tests passed. The production build succeeded.
+
+## Original sky wind and front-facing cube — 20 October 2026
+
+Synced from Site source commit `86696028d7a19d3d4a209a000797e91dab1ddf69`. The original sky above the hills now drifts gently at a different speed, replacing the added foreground cloud layers. Entire tag cards slide 50%, with gradual left alignment as their faces turn forward. Framing reserves the slide space on both desktop and phone widths. Thirteen relevant framing, passage, gesture, and idle-tour tests passed, as did the production build. Desktop and 390 × 844 phone viewport checks confirmed that the extended card remains within the stage, without horizontal page overflow. This viewport check does not measure physical iPhone performance.
