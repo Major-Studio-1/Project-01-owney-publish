@@ -367,35 +367,45 @@ function updateTagEmphasis(){
   style(layer,'--frame-opacity',active?1:inRange?.30:.05);
  });
 }
-// Reserve the full slide envelope and ease toward the left edge as faces turn forward.
-// Per-frame work changes the parent, not 67 layers.
-function fitCamera(size,depth,width,height,perspective,cardReach=0,leftBias=0){
+// Fit and balance the complete interaction envelope, including any half-width card slide.
+// This depends on rotation and viewport, never the inspected tag. Only the parent moves.
+function fitCamera(size,depth,width,height,perspective,cardReach=0){
  const xAngle=rx*Math.PI/180,yAngle=ry*Math.PI/180,points=[];
  for(const x of [-size/2,size/2+cardReach])for(const y of [-size/2,size/2])for(const z of [-depth/2,depth/2]){
   const x1=x*Math.cos(yAngle)+z*Math.sin(yAngle),z1=-x*Math.sin(yAngle)+z*Math.cos(yAngle);
   points.push([x1,y*Math.cos(xAngle)-z1*Math.sin(xAngle),y*Math.sin(xAngle)+z1*Math.cos(xAngle)]);
  }
- let scale=1,offsetX=0,offsetY=0;
- for(let pass=0;pass<6;pass++){
-  const projected=points.map(([x,y,z])=>[(scale*x+offsetX)/(1-scale*z/perspective),(scale*y+offsetY)/(1-scale*z/perspective)]);
-  const left=Math.min(...projected.map(p=>p[0])),right=Math.max(...projected.map(p=>p[0]));
-  const top=Math.min(...projected.map(p=>p[1])),bottom=Math.max(...projected.map(p=>p[1]));
-  const ratio=Math.min(1,(width-24)/(right-left),(height-32)/(bottom-top));
-  if(ratio<1){scale*=ratio*.995;offsetX=0;offsetY=0;}else{offsetX-=(left+right)/2;offsetY-=(top+bottom)/2;}
+ const marginX=Math.max(16,Math.min(28,width*.04)),marginY=28;
+ const halfWidth=Math.max(1,width/2-marginX),halfHeight=Math.max(1,height/2-marginY);
+ function bounds(scale){
+  let minX=-Infinity,maxX=Infinity,minY=-Infinity,maxY=Infinity;
+  for(const [x,y,z] of points){
+   const denominator=1-scale*z/perspective;
+   if(denominator<.18)return null;
+   minX=Math.max(minX,-halfWidth*denominator-scale*x);maxX=Math.min(maxX,halfWidth*denominator-scale*x);
+   minY=Math.max(minY,-halfHeight*denominator-scale*y);maxY=Math.min(maxY,halfHeight*denominator-scale*y);
+  }
+  return minX<=maxX&&minY<=maxY?{minX,maxX,minY,maxY}:null;
  }
- const alignedX=Math.max(...points.map(([x,y,z])=>(12-width/2)*(1-scale*z/perspective)-scale*x));
- offsetX+=(alignedX-offsetX)*leftBias;
- return {scale,offsetX,offsetY};
-}
-function faceAlignment(){
- const ease=t=>{t=Math.max(0,Math.min(1,t));return t*t*(3-2*t);};
- return ease(1-Math.abs(ry)/42)*ease((70-Math.abs(rx))/35);
+ // Solve the largest feasible scale, with a restrained enlargement ceiling.
+ let low=0,high=1.5;
+ for(let pass=0;pass<20;pass++){const scale=(low+high)/2;if(bounds(scale))low=scale;else high=scale;}
+ const scale=low,limit=bounds(scale);
+ function balance(axis,min,max){
+  for(let pass=0;pass<14;pass++){
+   const offset=(min+max)/2;let first=Infinity,last=-Infinity;
+   for(const point of points){const value=(scale*point[axis]+offset)/(1-scale*point[2]/perspective);first=Math.min(first,value);last=Math.max(last,value);}
+   if(first+last>0)max=offset;else min=offset;
+  }
+  return (min+max)/2;
+ }
+ return {scale,offsetX:balance(0,limit.minX,limit.maxX),offsetY:balance(1,limit.minY,limit.maxY)};
 }
 function paintCube(geometry){
  const {size,total,width,height,blend}=geometry;
  const perspective=blend>.99999?Infinity:1600/(1-blend);
  const cardReach=size*.5*(1-blend);
- const fit=fitCamera(size,total,width,height,perspective,cardReach,faceAlignment());
+ const fit=fitCamera(size,total,width,height,perspective,cardReach);
  world.style.transform='translate3d('+fit.offsetX+'px,'+fit.offsetY+'px,0) scale('+fit.scale+') rotateX('+rx+'deg) rotateY('+ry+'deg) translateZ('+(total/2)+'px)';
 }
 function drawCube(){

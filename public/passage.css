@@ -28,7 +28,7 @@
 @media(prefers-reduced-motion:reduce){.owney-passage-art{transition:none}.owney-passage .country-track{animation-play-state:paused!important}}
 /* The original painted sky has a little wind relative to its distant hills. */
 .country-far .country-sky{position:absolute;top:0;left:0;width:100%;height:auto;pointer-events:none;transform:none!important}
-.owney-passage.is-ready .country-sky{animation:owney-sky-wind 26s ease-in-out infinite alternate;animation-play-state:paused}
+.owney-passage.is-ready .country-sky{animation:owney-sky-wind 20s ease-in-out infinite alternate;animation-play-state:paused}
 .owney-passage.is-running .country-sky{animation-play-state:running}
 .owney-passage:is(.is-warming,.is-running) .country-sky{will-change:translate}
 @keyframes owney-sky-wind{from{translate:0 0}to{translate:calc(-1 * var(--sky-travel)) 0}}
